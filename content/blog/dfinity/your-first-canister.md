@@ -52,14 +52,14 @@ For this example, I'll be using a [super minimal website](https://px4js-kiaaa-aa
 
 The app isn't important, but you should be in a directory with a valid dfx project for the next instructions. You can follow along directly by cloning this [example project](https://github.com/krpeacock/ic-static-minimal):
 
-```shell-session
+```bash
 git clone https://github.com/krpeacock/ic-static-minimal.git
 cd ic-static-minimal
 ```
 
 Next, you'll need to get the principal from your computer by running
 
-```shell-session
+```bash
 dfx identity get-principal
 ```
 
@@ -85,7 +85,7 @@ Replace <code>{`<canister-id>`}</code> in <code>{`canister_ids.json`}</code>
 
 Then, you'll need to run
 
-```shell-session
+```bash
 dfx deploy --network ic --no-wallet
 ```
 

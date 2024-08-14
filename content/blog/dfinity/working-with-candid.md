@@ -15,7 +15,7 @@ There are situations where you may have a Candid `.did` file that you want to wo
 
 To illustrate this, I'll create an example project.
 
-```shell-session
+```bash
 dfx new no_backend
 cd no_backend
 ```
@@ -116,7 +116,7 @@ With the interface in place, I can have `dfx` generate declarations for the Iden
 
 This configuration tells `dfx` that there is a custom canister, with a `.did` file and the empty wasm, which will allow it to generate the types for you. To have `dfx` generate your types, run the following commands:
 
-```shell-session
+```bash
 dfx canister create no_backend_assets
 dfx canister create identity
 dfx build
@@ -137,7 +137,7 @@ You can go to [https://github.com/dfinity/candid/releases](https://github.com/df
 
 I have also written a shell script to automatically install the latest build of `didc` for you:
 
-```shell-session
+```bash
 unameOut="$(uname -s)"
 case "${unameOut}" in
     Linux*)     machine=Linux;;

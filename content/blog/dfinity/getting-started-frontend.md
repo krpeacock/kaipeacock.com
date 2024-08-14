@@ -76,7 +76,7 @@ To get your starter running, you'll need to run a few commands. First, run `dfx 
 
 In the new window, you need to create your on a local version of the internet computer, then compile your code.
 
-```shell
+```bash
 dfx canister create hello
 dfx canister create hello_assets
 dfx build

@@ -1,5 +1,7 @@
 +++
 title = "About Kai"
+date = 2022-01-07
+template = "article.html"
 +++
 
 I'm a software engineer, working for the

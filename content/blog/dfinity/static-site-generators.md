@@ -39,7 +39,7 @@ To begin, I run the command `npm init gatsby`. I'm prompted with "What would you
 
 This will set me up with a simple file structure:
 
-```shell-session
+```bash
 ├── README.md
 ├── gatsby-config.js
 ├── package-lock.json
@@ -82,7 +82,7 @@ Because Gatsby compiles its build output into the `public` directory, our `dfx.j
 
 You can follow quickstart guide at https://dfinity.org/developers/, or [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/krpeacock/ic-vcf-gatsby)
 
-```shell-session
+```bash
 sh -ci "$(curl -fsSL https://sdk.dfinity.org/install.sh)"
 ```
 
@@ -180,7 +180,7 @@ We can add logic to copy code declarations from the Canister's interface, by pul
 
 Now, we can deploy our backend locally, and generate those types.
 
-```shell-session
+```bash
 dfx deploy phone_book
 npm run copy:types
 ```
@@ -195,7 +195,7 @@ Next, we'll need to update Gatsby with an alias that points to our declarations.
 
 Additionally, we'll add a proxy to `gatsby-config.js` file, proxying `localhost:8000`, which is the default address for our `dfx` replica.
 
-```jsx
+```ts
 // gatsby-config.js
 module.exports = {
   siteMetadata: {
@@ -215,7 +215,7 @@ We'll modify our `index.js` page with logic to store submissions from the form o
 
 I'll import the actor (doing this as a dynamic import to avoid initializing the HttpAgent during server-side rendering for Gatsby) from the auto-generated type generation that `dfx` provides us using the Candid declarations.
 
-```jsx
+```tsx
 React.useEffect(() => {
   import("../declarations/phone_book").then((module) => {
     setActor(module.phone_book);
@@ -225,7 +225,7 @@ React.useEffect(() => {
 
 We'll use our set method during `handleSubmit` to store the data and then clean up our contact form.
 
-```jsx
+```tsx
 actor?.set(email, JSON.stringify(card.toJSON())).then(() => {
   alert("card uploaded!");
   inputs.forEach((input) => {
@@ -237,7 +237,7 @@ actor?.set(email, JSON.stringify(card.toJSON())).then(() => {
 
 and then we will use the `get` method to fetch contacts using the email search.
 
-```jsx
+```tsx
 actor?.get(email).then((returnedCard) => {
   if (!returnedCard.length) {
     return alert("No contact found for that email");
@@ -259,7 +259,7 @@ And now, we have a fully-functioning application we can run on the Internet Comp
 
 Now that we've adapted our codebase, our project structure looks like this:
 
-```shell-session
+```bash
 ├── README.md
 ├── dfx.json
 ├── gatsby-config.js

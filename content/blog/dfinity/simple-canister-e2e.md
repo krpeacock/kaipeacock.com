@@ -28,7 +28,7 @@ First, start with a `dfx new hello` project. Remove the `hello_assets` folder an
 
 Next, install `vitest` and `isomorphic-fetch`. Note: You can use Jest instead, but you'll need to do a little more setup.
 
-```shell-session
+```bash
 npm install --save-dev vitest isomorphic-fetch
 ```
 
@@ -94,7 +94,7 @@ test("should handle a basic greeting", async () => {
 
 Spin up your canister, and then you can run `npm test` (or [bun](https://bun.sh/) test!) to run your new test.
 
-```shell-session
+```bash
 dfx start --background --clean
 dfx deploy
 dfx generate
@@ -103,7 +103,7 @@ npm test
 
 You should see a success message like this in your terminal, while `vitest` waits for new changes to your source code.
 
-```shell-session
+```bash
  ✓ src/e2e/hello.test.ts (1)
 
 Test Files  1 passed (1)
