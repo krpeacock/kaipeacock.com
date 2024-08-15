@@ -3,6 +3,8 @@ title = "Working with Candid"
 date = 2021-07-27
 image = "/images/dfinity-logo.jpg"
 description = "How to interact with a canister using just a candid declaration using dfx or the didc tool directly"
+[taxonomies]
+tags = ["dfinity", "dfx", "candid", "didc"]
 +++
 
 Candid is a very useful part of the Internet Computer ecosystem. It is the interface that allows Canisters to talk to each other and for agents to make calls to Canisters. The default workflow we currently show you in our tutorials is basically "write Motoko code and we'll make the rest happen magically for you using dfx". However, once you've strayed off the beaten path a bit, things have probably gotten more complicated. The goal of this post is to break down how to work with Candid for your application.

@@ -3,6 +3,8 @@ title = "React Native for IC Apps"
 date = "2023-12-08"
 image = "/images/dfinity-logo.jpg"
 description = "Build a React Native app for the Internet Computer using Expo and Internet Identity"
+[taxonomies]
+tags = ["dfinity", "react native", "expo", "mobile development"]
 +++
 
 ## Introduction

@@ -3,6 +3,8 @@ title = "Using Motoko Variants"
 date = "2023-10-23"
 image = "/images/motoko-ghost.jpeg"
 description = "Motoko variants are a powerful way to represent mixed data in a type-safe way."
+[taxonomies]
+tags = ["dfinity", "motoko", "web development"]
 +++
 
 Motoko variants are a cool language feature that lets you tag data with a custom label. In the base form, the label is the entire information that you are storing, similar to an enum. For example,

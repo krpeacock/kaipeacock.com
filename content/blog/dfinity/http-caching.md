@@ -3,6 +3,8 @@ title = "Level up your canister with a Http Cache"
 date = 2023-03-10
 image = "/images/dfinity-logo.jpg"
 description = "Http requests are queries by default, but you may need to upgrade to an update in some cases. This example shows how to cache those results so your users can reap the performance benefits!"
+[taxonomies]
+tags = ["dfinity", "motoko", "web development"]
 +++
 
 Http requests are queries by default, but you may need to upgrade to an update in some cases. This example shows how to cache those results so your users can reap the performance benefits!

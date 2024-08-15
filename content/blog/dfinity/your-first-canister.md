@@ -3,6 +3,8 @@ title = "Deploying Your First Canister (NNS dapp)"
 date = 2021-06-29
 image = "/images/dfinity-logo.jpg"
 description = "How to take ICP utility tokens and get your first Internet Computer Canister up and running (<5 minutes)"
+[taxonomies]
+tags = ["dfinity", "canisters", "web development"]
 +++
 
 So, you have some ICP utility tokens and you're interested in spinning up your first Canister on the Internet Computer. This guide will get you started with everything you need, and walk you step-by-step through everything you need to do, using the NNS dapp.

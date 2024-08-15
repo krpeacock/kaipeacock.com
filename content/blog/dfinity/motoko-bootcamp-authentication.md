@@ -3,6 +3,8 @@ title = "Outline: Frontend Architecture and Authentication"
 date = 2022-03-08
 image = "/images/dfinity-logo.jpg"
 description = "Outline for a talk I have presented at ASPLOS 2022 and adapted for Motoko Bootcamp 2022"
+[taxonomies]
+tags = ["dfinity", "frontend", "web development"]
 +++
 
 This is an outline for a talk I have presented at ASPLOS 2022 and adapted for Motoko Bootcamp 2022. It's not fully fleshed out, since I'll be using it to make slides, but I figured I'd publish it anyway in case it is helpful to anyone.

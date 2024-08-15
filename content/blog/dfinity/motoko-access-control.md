@@ -3,6 +3,8 @@ title = "Access Controls Tutorial"
 date = "2023-05-09"
 image = "/images/motoko-ghost.jpeg"
 description = "Produced for Motoko Bootcamp, this guide shows a minimal example of how to add authentication to your frontend and manage updates in a Motoko canister"
+[taxonomies]
+tags = ["dfinity", "motoko", "access-control", "authentication"]
 +++
 
 Produced for Motoko Bootcamp, this guide shows a minimal example of how to add authentication to your frontend and manage updates in a Motoko canister.

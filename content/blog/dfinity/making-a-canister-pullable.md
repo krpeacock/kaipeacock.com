@@ -3,6 +3,8 @@ title = "Make your Canister Pullable"
 date = 2023-08-09
 image = "/images/dfinity-logo.jpg"
 description = "How to enable dfx pull for your canister and thrill your users with a seamless development experience"
+[taxonomies]
+tags = ["dfinity", "dfx", "canisters"]
 +++
 
 How to enable dfx pull for your canister and thrill your users with a seamless development experience. If you are looking for how to use dfx pull, check out the [DFX Pull Example](./use-dfx-pull).

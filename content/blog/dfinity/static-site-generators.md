@@ -3,6 +3,8 @@ title = "Static Site Generators on the IC"
 date = 2021-04-06
 image = "/images/dfinity-logo.jpg"
 description = "Interested in running a website on a decentralized cloud platform? Follow along as I start from a fresh project and adapt it for the Internet Computer"
+[taxonomies]
+tags = ["dfinity", "frontend", "web development"]
 +++
 
 <style>{`main{text-transform: none;}`}</style>

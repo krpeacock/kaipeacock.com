@@ -3,6 +3,8 @@ title = "How to use DFX Pull"
 date = 2023-08-08
 image = "/images/dfinity-logo.jpg"
 description = "How to use pull-enabled canisters in your own project"
+[taxonomies]
+tags = ["dfinity", "dfx", "canisters"]
 +++
 
 - [DFX Pull Docs](https://internetcomputer.org/docs/current/developer-docs/setup/pulling-canister-dependencies/)

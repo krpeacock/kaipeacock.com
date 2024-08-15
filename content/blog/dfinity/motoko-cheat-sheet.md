@@ -3,6 +3,8 @@ title = "Motoko Cheat Sheet"
 date = "2022-11-14"
 image = "/images/motoko-ghost.jpeg"
 description = "Quick References for Basic Motoko Syntax"
+[taxonomies]
+tags = ["dfinity", "motoko", "web development"]
 +++
 
 I'm making this for my own reference, but I hope it helps you out as well!

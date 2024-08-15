@@ -4,6 +4,8 @@ path = "dfinity/dfx-0_7_7-changes"
 date = 2021-07-20
 image = "/images/dfinity-logo.jpg"
 description = "Explaining the changes coming to frontend development in dfx 0.7.7"
+[taxonomies]
+tags = ["dfinity", "dfx", "frontend", "typescript"]
 +++
 
 - [Overview](#overview)

@@ -3,6 +3,8 @@ title = "Testing Your Canister With Vitest"
 date = 2022-07-08
 image = "/images/dfinity-logo.jpg"
 description = "An intro into end-to-end testing Internet Computer canisters in JavaScript/TypeScript using Vitest"
+[taxonomies]
+tags = ["dfinity", "testing", "web development"]
 +++
 
 Have you gotten started building on the Internet Computer and are interested in writing some automated tests for your code? This is a quick guide on how to get started, using the Hello World starter app.

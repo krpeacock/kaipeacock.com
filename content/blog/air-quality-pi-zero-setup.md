@@ -2,6 +2,7 @@
 title = "Air Quality Meter - Step 2: the Pi"
 description = "A guide to setting up a Pi, where I documented all the steps"
 date = 2020-09-14
+[taxonomies]
 tags = [
     "air quality",
     "project",

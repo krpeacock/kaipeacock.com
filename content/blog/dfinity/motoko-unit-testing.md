@@ -3,6 +3,8 @@ title = "Unit Testing in Motoko"
 date = 2022-01-07
 image = "/images/motoko-ghost.jpeg"
 description = "Some early lessons learned from unit testing a Motoko canister"
+[taxonomies]
+tags = ["dfinity", "motoko", "unit testing", "development"]
 +++
 
 import { TwitterTweetEmbed } from 'react-twitter-embed';

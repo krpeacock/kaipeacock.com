@@ -3,6 +3,8 @@ title = "Reimagining Frontend Development on the IC"
 date = 2021-04-05
 image = "/images/dfinity-logo.jpg"
 description = "It's been a few months since I started at Dfinity, and I have an exciting feature to share with you"
+[taxonomies]
+tags = ["dfinity", "frontend", "web development"]
 +++
 
 It's been a while since I posted [my first writeup](/blog/dfinity/getting-started-frontend) on getting started on the Internet Computer. About three months, actually. Could I have written up a few more posts in that time on how I was figuring out the ins and outs of building IC web apps? Sure I could. However, I was convinced that nothing I wrote would ultimately be what I wanted to recommend to the world in general, because I could see a game-changing new technology on the horizon. Thanks to the efforts of the Dfinity Developer Experience team, that new experience is what I'm happy to announce to you today!

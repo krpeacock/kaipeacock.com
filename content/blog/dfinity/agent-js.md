@@ -4,6 +4,8 @@ path = "dfinity/agent-js"
 date = 2022-05-02
 image = "/images/dfinity-logo.jpg"
 description = "A first draft of documentation about the how the JavaScript Agent works, our recommended workflows, and how to get set up with various tools and environments"
+[taxonomies]
+tags = ["dfinity", "javascript", "icp"]
 +++
 
 This blog post is a first draft of documentation I'm working on. It covers how the JavaScript Agent works, our recommended workflows, and how to get set up with various tools and environments.

@@ -2,6 +2,7 @@
 title = "Air Quality Meter - Step 1: the Display"
 description = "Getting started on building a portable air quality meter"
 date = 2020-09-05
+[taxonomies]
 tags = [
     "air quality",
     "sensor",

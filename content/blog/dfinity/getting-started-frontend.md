@@ -3,6 +3,8 @@ title = "Frontend Development on the Internet Computer"
 date = 2021-01-16
 image = "/images/dfinity-logo.jpg"
 description = "Curious about how frontend code works on the Internet Computer? Here's what I've learned after two weeks on the job"
+[taxonomies]
+tags = ["dfinity", "frontend", "web development"]
 +++
 
 Curious about how frontend code works on the Internet Computer? Here's what I've learned after two weeks on the job.
