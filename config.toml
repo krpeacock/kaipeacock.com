@@ -96,7 +96,8 @@ links = [
 # Same as the nav ones.
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
-    { url = "https://codeberg.org/daudix/duckquill", name = "Repo" },
+    { url = "https://github.com/krpeacock/kaipeacock.com", name = "Repo" },
+    { url = "@/gift-list.md", name = "Wish List" }
 ]
 # Social links in the footer.
 # Any URL-encoded SVG can be used as an icon.
@@ -133,8 +134,8 @@ user = "daudix"
 show_qr = true
 
 # GoatCounter analytics; enabled only if present in config.
-[extra.goatcounter]
+# [extra.goatcounter]
 # Your GoatCounter server; goatcounter.com is used by default.
 # host = "YOUR_SERVER"
 # Your GoatCounter username
-user = "duckquill"
+# user = "duckquill"
