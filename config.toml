@@ -11,6 +11,8 @@ feed_filenames = ["rss.xml", "atom.xml"]
 build_search_index = true
 author = "Kai Peacock"
 
+theme = "duckquill"
+
 # Based on https://github.com/welpo/tabi
 #
 # To translate the entire theme, there must be a file with the same ISO 639-1 or BCP 47
@@ -97,7 +99,7 @@ links = [
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
     { url = "https://github.com/krpeacock/kaipeacock.com", name = "Repo" },
-    { url = "@/gift-list.md", name = "Wish List" }
+    { url = "@/gift-list.md", name = "Wish List" },
 ]
 # Social links in the footer.
 # Any URL-encoded SVG can be used as an icon.
@@ -127,9 +129,9 @@ show_source = false
 # the needed rel="me" link is set in the head based on these.
 [extra.comments]
 # Your Mastodon API host; instance that you have an account on.
-host = "vmst.io"
+host = "sfba.social"
 # Your Mastodon username; used to determine who the original poster is.
-user = "daudix"
+user = "kaipeacock"
 # Whether to show the QR code to Mastodon post
 show_qr = true
 
