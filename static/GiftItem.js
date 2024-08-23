@@ -1,6 +1,12 @@
 // Custom Html Element: <gift-item></gift-item>
 
+import("./checkbox.js");
+
 class GiftItem extends HTMLElement {
+  interval = null;
+
+  pending = true;
+
   constructor() {
     super();
     this.attachShadow({ mode: "open" });
@@ -45,6 +51,18 @@ class GiftItem extends HTMLElement {
             #link {
                 margin-top: auto;
             }
+            #reserved-label {
+                background: none;
+                border: none;
+                padding: 0.25rem;
+                width: fit-content;
+                display: flex;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            #reserved-label::focus-within {
+                outline: 1px solid #ededf0
+            }
         </style>
         <a id="picture-link" href="">
             <picture>
@@ -74,6 +92,42 @@ class GiftItem extends HTMLElement {
     this.shadowRoot.querySelector("#link").textContent =
       this.getAttribute("linktext");
     this.shadowRoot.querySelector("#link").href = this.getAttribute("link");
+
+    // Checkbox for reserved status
+    const label = document.createElement("button");
+    label.id = "reserved-label";
+    this.shadowRoot.appendChild(label);
+    const checkbox = document.createElement("paper-checkbox");
+    checkbox.setAttribute("disabled", "");
+    label.addEventListener("click", async () => {
+      checkbox.setAttribute("disabled", "");
+      this.pending = true;
+
+      this.interval = clearInterval(this.interval);
+      const response = await fetch(
+        `https://eoexx-syaaa-aaaab-qahzq-cai.icp0.io/gifts/${this.id}/toggle`,
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
+      if (response.ok) {
+        const json = await response.json();
+        const { status } = json;
+        this.updateCheckbox(status);
+        this.pollStatus();
+      }
+    });
+    label.appendChild(checkbox);
+    const span = document.createElement("span");
+    span.textContent = "Reserved";
+    label.appendChild(span);
+
+    this.status().then(() => {
+      this.pending = false;
+    });
   }
 
   static get observedAttributes() {
@@ -116,6 +170,57 @@ class GiftItem extends HTMLElement {
           break;
       }
     }
+  }
+
+  pollStatus() {
+    this.interval = setInterval(() => {
+      if (!this.pending) {
+        this.status();
+      }
+    }, 10000);
+  }
+
+  async status() {
+    return await fetch(
+      `https://eoexx-syaaa-aaaab-qahzq-cai.icp0.io/gifts/${this.id}`
+    ).then(async (response) => {
+      if (response.ok) {
+        const json = await response.json();
+        const { status } = json;
+        this.updateCheckbox(status);
+
+        return response;
+      }
+      throw new Error("Network response was not ok.");
+    });
+  }
+
+  /**
+   *
+   * @param {"bought" | "ubought"} state
+   */
+  updateCheckbox(state) {
+    // ensure the state is valid
+    if (!["bought", "unbought"].includes(state)) {
+      throw new Error("Invalid checkbox state");
+    }
+
+    const checkbox = this.shadowRoot.querySelector("paper-checkbox");
+
+    switch (state) {
+      case "bought":
+        if (!checkbox.hasAttribute("checked")) {
+          checkbox.setAttribute("checked", "");
+        }
+        break;
+      case "unbought":
+        if (checkbox.hasAttribute("checked")) {
+          checkbox.removeAttribute("checked");
+        }
+        break;
+    }
+    checkbox.removeAttribute("disabled");
+    this.pending = false;
   }
 }
 

@@ -125,4 +125,5 @@ Typical sizing: XL Women's, M or L Men's
 
 </div>
 
-<script src="/GiftItem.js" type="text/javascript"></script>
+
+<script src="/GiftItem.js" type="module"></script>
