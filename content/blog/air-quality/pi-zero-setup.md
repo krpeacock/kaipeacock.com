@@ -15,6 +15,8 @@ tags = [
   ]
 +++
 
+# Air Quality Meter - Step 2: the Pi
+
 There are a lot of guides and some top notch documentation on getting start with a Raspberry Pi. Here are the parts I used to get the Pi set up, and the steps that I followed.
 
 All of the links I provided are important and really thorough. Follow them carefully!
