@@ -52,3 +52,16 @@ h5 {
 h6 {
     font-size: 0.75rem;
 }
+
+img {
+    transform: none !important;
+    z-index: inherit !important;
+    box-shadow: none !important;
+    cursor: unset !important;
+    border-radius: 0 !important;
+    transition: none !important;
+}
+
+iframe {
+    width: 100%;
+}

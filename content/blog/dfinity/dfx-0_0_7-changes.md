@@ -7,17 +7,6 @@ description = "Explaining the changes coming to frontend development in dfx 0.7.
 tags = ["dfinity", "dfx", "frontend", "typescript"]
 +++
 
-- [Overview](#overview)
-- [Type Inference Update](#type-inference-update)
-- [Change to index file](#change-to-index-file)
-  - [TypeScript Declaration Changes](#typescript-declaration-changes)
-- [Changes to dfx new](#changes-to-dfx-new)
-  - [Copying the declarations](#copying-the-declarations)
-  - [Webpack dev server](#webpack-dev-server)
-- [Migrating your project](#migrating-your-project)
-  - [Environment variables](#environment-variables)
-  - [Minimal Update](#minimal-update)
-
 ## Overview
 
 The SDK team has an upcoming release candidate for `dfx` that you can install today by running
@@ -54,7 +43,7 @@ These methods will allow frontend developers to interact nicely with the interfa
 
 To make this possible, there are some changes to the codegen that we will create for you.
 
-### Change to index file
+<h3 id="change-to-index-file">Change to index file</h3>
 
 Previously, under `.dfx/local/canisters/<canister-name>`, we would output a `<canister-name>.js` file. Going forward, to avoid duplicating the directory name, this file will be renamed to `index.js`.
 
@@ -140,7 +129,7 @@ At last, give you a pleasantly-configured dev server set up out of the box. `npm
 
 Changes to your `assets` directory or `src` in the `<canister-name>_assets` directory will kick off hot-reload updates to the browser. API calls to will be proxied to `localhost:8000`, so you can interact with the local replica seamlessly.
 
-## Migrating your project
+<h2 id="migrating-your-project>Migrating your project</h2>
 
 If you have an existing project, you may need to make some adjustments when upgrading to 0.7.7+.
 

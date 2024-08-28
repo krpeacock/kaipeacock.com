@@ -958,7 +958,7 @@ I return to where I started, the Rue Linnée, in spite of its dubious character.
 
 I am concluding this book—my friend during a time of suffering. A new life begins. I wonder what it will bring? I hope that somewhere a door will be opened and that I will find some help. I am no longer afraid. I am free and at long last a human being again.
 
-## Full PDF and Download
+<h2 id="full-pdf-and-download">Full PDF and Download</h2>
 
 <iframe src="./paula-littauer.pdf" id="article-embed"></iframe>
 

@@ -1,0 +1,8 @@
+{
+  "canisters": {
+    "site": {
+      "type": "assets",
+      "source": ["public"]
+    }
+  }
+}
