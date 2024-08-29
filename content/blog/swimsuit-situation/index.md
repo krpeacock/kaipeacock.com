@@ -9,6 +9,8 @@ tags = [
     "gender",
     "personal",
   ]
+[extra.comments]
+id = "113046929980886788"
 +++
 
 Something like two years ago, my friend Sasha asked if I wanted to come with her to go swimming, since we both used to swim competitively when we were younger. We swam for a couple months together, and then she gradually dropped off and I stuck with it. I swam on my own once or twice a week at the Koret gym at USF, and eventually felt like I'd plateaued.
