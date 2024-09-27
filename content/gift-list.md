@@ -108,6 +108,15 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="avowed"
 ></gift-item>
 </section>
+<gift-item
+link="https://www.nintendo.com/us/store/products/the-legend-of-zelda-echoes-of-wisdom-119253/"   image="https://gamingbolt.com/wp-content/uploads/2024/06/the-legend-of-zelda-echoes-of-wisdom-box-image.jpg"
+    id="zelda"
+    description="Echoes of Wisdom (cartridge preferred)"
+    title="Legend of Zelda"
+    alt="zelda"
+></gift-item>
+</section>
+
 
 ## Sizing Guide
 
