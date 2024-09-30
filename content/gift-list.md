@@ -66,6 +66,16 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
 <h2>Home</h2>
 <section class="gift-section">
 <gift-item
+    link="https://www.deltafaucet.com/kitchen/product/9113T-DST.html"
+    linkText="Delta Faucet"
+    image="https://www.deltafaucet.com/dw/image/v2/BFJJ_PRD/on/demandware.static/-/Sites-delta-master-catalog/default/dwce2ffc02/images/large/9113T-DST-B1.png?sw=560&sh=560&sm=fit"
+    id="faucet"
+    description="I've fully decided I'm getting this either way"
+    price="598"
+    title="Touch Start Kitchen Faucet"
+    alt="faucet"
+></gift-item>
+<gift-item
     link="https://www.amazon.com/dp/B088DNK94C"
     linkText="Amazon"
     image="https://m.media-amazon.com/images/I/51TNjnnt1cL._AC_SL1077_.jpg"
