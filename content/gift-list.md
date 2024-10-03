@@ -86,6 +86,26 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="icecream"
 ></gift-item>
 <gift-item
+    link="https://shop.a24films.com/products/i-saw-the-tv-glow-blu-ray"
+    linkText="a24 shop"
+    image="https://cdn.accentuate.io/6965070921777/1722020337047/20240721_A24_I-Saw-the-TV-Glow_Blu-Ray_11607-tight-gray.jpg?v=1722020337047"
+    id="i-saw-the-tv-glow"
+    description="I Saw the TV Glow Blu-ray"
+    price="30"
+    title="I Saw the TV Glow Blu-ray"
+    alt="I Saw the TV Glow"
+></gift-item>
+<gift-item
+    link="https://shop.a24films.com/products/i-saw-the-tv-glow-original-motion-picture-soundtrack"
+    linkText="a24 shop"
+    image="https://cdn.accentuate.io/6921146007601/1714518563798/02_ISTG_Vinyl_Front_Cover_With_Records.jpg?v=1714518563798"
+    id="i-saw-the-tv-glow-soundtrack"
+    description="I Saw the TV Glow Soundtrack"
+    price="40"
+    title="I Saw the TV Glow Soundtrack"
+    alt="I Saw the TV Glow Soundtrack"
+></gift-item>
+<gift-item
     link="https://yetch.store/products/small-coat-hinger-bracket-kit-pre-order"
     linkText="Yetch"
     image="https://imgproxy.fourthwall.com/Ea-Z8ga5kjvCmdWlPYUG90MMOVz9fI8hr4mzMQaaS1s/sm:1/enc/ZWVlMGFlOGE5ODk3/ODQ0ODWLM3OwT6iV/ZH6UeHSku1ukWmPA/09f_rAAKlM5CnqcC/e1EihE2gGHmdBGs7/NV7BRMF2dtmp9FxL/Eq_KoE9EdSJvc--F/z287Yre8FMsZ4m1M/6KbB0xRJcqrLgAfb/99OUlTvUIYSUCA4-/wp29LmCgh2EuRZS5/dSDWbtsRjQxUinfs/znde6LTjuFRTUGgY/IxQX-Q.webp"
@@ -119,9 +139,10 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
 ></gift-item>
 </section>
 <gift-item
-link="https://www.nintendo.com/us/store/products/the-legend-of-zelda-echoes-of-wisdom-119253/"   image="https://gamingbolt.com/wp-content/uploads/2024/06/the-legend-of-zelda-echoes-of-wisdom-box-image.jpg"
+    link="https://www.nintendo.com/us/store/products/the-legend-of-zelda-echoes-of-wisdom-119253/"   image="https://gamingbolt.com/wp-content/uploads/2024/06/the-legend-of-zelda-echoes-of-wisdom-box-image.jpg"
     id="zelda"
     description="Echoes of Wisdom (cartridge preferred)"
+    price="60"
     title="Legend of Zelda"
     alt="zelda"
 ></gift-item>
