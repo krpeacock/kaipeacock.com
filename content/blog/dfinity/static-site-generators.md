@@ -100,7 +100,7 @@ Start by running `npm run build` to compile your website. You can now run `dfx d
 
 > Note: if you used the NNS guide, you will deploy with `dfx deploy --network=ic --no-wallet`
 
-Once your site deploy is finished, you can find your canister id by running `dfx canister id www`, and then navigating to `https://{canisterId}.ic0.app`.
+Once your site deploy is finished, you can find your canister id by running `dfx canister id www`, and then navigating to `https://{canisterId}.icp0.io`.
 
 ---
 

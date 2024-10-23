@@ -1,6 +1,7 @@
 +++
 title = "Working with Candid"
 date = 2021-07-27
+updated = "2024-10-23"
 image = "/images/dfinity-logo.jpg"
 description = "How to interact with a canister using just a candid declaration using dfx or the didc tool directly"
 [taxonomies]
@@ -63,11 +64,7 @@ new webpack.EnvironmentPlugin({
 }),
 ```
 
-Now, I'll need to find a candid interface I want to interact with. For now, I'll go with the Internet Identity canister. I can find my interface by going to [ic.rocks/canisters](https://ic.rocks/canisters), and selecting the NNS subnet, System tdb26.
-
-![IC Rocks canister inspection view](/ic-rocks-identity.png)
-
-Then, after clicking on the [Identity canister](https://ic.rocks/principal/rdmx6-jaaaa-aaaaa-aaadq-cai), I can scroll down and see the Candid interface of the Internet Identity canister. I'll copy this file, and add it under `src/identity` as a new file, `identity.did`.
+Now, I'll need to find a candid interface I want to interact with. For now, I'll go with the Internet Identity canister. I can find my interface by going to the [Internet Computer Dashboard](https://dashboard.internetcomputer.org/canister/rdmx6-jaaaa-aaaaa-aaadq-cai) and pasting in the canister ID, `rdmx6-jaaaa-aaaaa-aaadq-cai`. I can scroll down and see the Candid interface of the Internet Identity canister. I'll copy this file, and add it under `src/identity` as a new file, `identity.did`.
 
 ## Generating types using DFX
 
@@ -122,16 +119,17 @@ This configuration tells `dfx` that there is a custom canister, with a `.did` fi
 dfx canister create no_backend_assets
 dfx canister create identity
 dfx build
-npm run copy:types
+dfx generate no_backend_assets
+dfx generate identity
 ```
 
-Now, your canister should have created types for the `no_backend_assets` and `identity` canisters and copied them into your `src/declarations` folder. You can git commit those files, and now all that remains is to update `webpack.config.js` to point to the live Identity canister.
+Now, your canister should have created types for the `no_backend_assets` and `identity` canisters and placed them into your `src/declarations` folder. You can git commit those files, and now all that remains is to update `webpack.config.js` to point to the live Identity canister.
 
 Now, `src/declarations/identity/index.js` has automatically generated your types. If you are done with the canister, you can delete the code out of `dfx.json` and continue on with local development.
 
 ## Generating Types using didc
 
-So, that method is messy. It's convenient, in that you don't need to install any additional software. That said, if you are willing to install our Candid type generation tool, `didc`, you can have a simpler setup.
+This is all baked into `dfx`, and will come set up nicely in `dfx new` projects. However, you can also do this manually using the `didc` CLI if you have a more particular setup.
 
 ### Installing didc
 
@@ -171,7 +169,7 @@ If you run this, you should have didc downloaded and saved to `~/bin/didc` autom
 
 If we back up to the end of <a href="#setting-up">setting up</a>, we can bypass using `dfx` to generate the types and just generate them ourselves.
 
-In `package.json`, we can add three scripts:
+In `package.json`, we can add a script:
 
 ```json
 // package.json
@@ -202,18 +200,11 @@ export const canisterId = process.env.IDENTITY_CANISTER_ID;
  * @param {{agentOptions?: import("@dfinity/agent").HttpAgentOptions; actorOptions?: import("@dfinity/agent").ActorConfig}} [options]
  * @return {import("@dfinity/agent").ActorSubclass<import("./identity.did.js")._SERVICE>}
  */
-export const createActor = (canisterId, options) => {
-  const agent = new HttpAgent({ ...options?.agentOptions });
-
-  // Fetch root key for certificate validation during development
-  if (process.env.NODE_ENV !== "production") {
-    agent.fetchRootKey().catch((err) => {
-      console.warn(
-        "Unable to fetch root key. Check to ensure that your local replica is running",
-      );
-      console.error(err);
-    });
-  }
+export const createActor = async (canisterId, options) => {
+  const agent = await HttpAgent.create({
+    ...options?.agentOptions,
+    shouldFetchRootKey: process.env.NODE_ENV !== "production"
+  });
 
   // Creates an actor with using the candid interface and the HttpAgent
   return Actor.createActor(idlFactory, {

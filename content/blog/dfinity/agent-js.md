@@ -1,30 +1,28 @@
 +++
 title = "Using JavaScript with the Internet Computer"
 date = 2022-05-02
+updated = "2024-10-23"
 image = "/images/dfinity-logo.jpg"
-description = "A first draft of documentation about the how the JavaScript Agent works, our recommended workflows, and how to get set up with various tools and environments"
+description = "Getting started with IC Development - Hhw the JavaScript Agent works, my recommended workflows, and how to get set up with various tools and environments"
 [taxonomies]
 tags = ["dfinity", "javascript", "icp"]
 +++
 
-This blog post is a first draft of documentation I'm working on. It covers how the JavaScript Agent works, our recommended workflows, and how to get set up with various tools and environments.
-
 ## Basics
 
-To get started with JavaScript on the Internet Computer, we recommend you follow our quickstart guide in order to get set up with the basics of your development environment. This includes:
+To get started with JavaScript on the Internet Computer, I recommend you follow the [quickstart guide](https://internetcomputer.org/docs/current/developer-docs/getting-started/install/) in order to get set up with the basics of your development environment. This includes:
 
-- Dfinity's development SDK, `dfx`
-- Node JS (12, 14, or 16)
-- A canister you want to experiment with
-  - Suggestions:
-    - `dfx new` starter project
-    - an example from [dfinity/examples](https://github.com/dfinity/examples)
+- Dfinity's development SDK, `dfx` (installed using the `dfx` version manager)
+- Node JS (18, 20, 22)
+- A canister you want to experiment with. I suggest starting with:
+  - `dfx new` starter project
+  - an example from [dfinity/examples](https://github.com/dfinity/examples)
 
 ---
 
-The Internet Computer blockchain is accessible via an API that is available at [https://ic0.app/api/v2](https://ic0.app/api/v2). Smart contracts are able to define their own API's using the Candid Interface Declaration Language (IDL), and they will respond to calls through the public API.
+The Internet Computer is accessible via an API available at [https://icp-api.io](https://icp-api.io). Canisters are able to define their own interfaces using the Candid Interface Declaration Language (IDL), and they will respond to calls through the public API. The API is more complex than a typical REST interface, so I recommend using an [agent](https://internetcomputer.org/docs/current/developer-docs/developer-tools/dev-tools-overview/#agents) in your preferred language.
 
-The IC supports two types of calls - `queries` and `updates`. Queries are fast and cannot change state. Updates go through consensus, and will take around 2-4 seconds to complete.
+There are two basic types of calls - `queries` and `updates`. Queries are fast and cannot change state. Updates go through consensus, and will take around 2-4 seconds to complete.
 
 As a result of the latency for updates, best practices around modeling your application's performance will have you make updates asynchronously and early. If you can make an update ahead of time and have it already "cached" in your canister's memory, your users will have a better experience requesting that data. Similarly, if your application needs to make an update, it is best to avoid blocking interaction while your update is taking place. Use _optimistic rendering_ wherever practical, and proceed with your application as if the call has already succeeded.
 
@@ -41,7 +39,7 @@ service : {
 
 This is a Candid interface. It defines no new special types, and defines a `service` interface with a single method, `greet`. Greet accepts a single argument, of type `text`, and responds with `text`. Unless labeled as a `query`, all calls are treated as updates by default.
 
-In JS, `text` maps to a type of `string`. You can see a full list of Candid types and their JS equivalents at the [Candid Types](https://smartcontracts.org/docs/candid-guide/candid-types.html) reference.
+In JS, `text` maps to a type of `string`. You can see a full list of Candid types and their JS equivalents at the [Candid Types](https://internetcomputer.org/docs/candid-guide/candid-types.html) reference.
 
 Since this interface is easily typed, we are able to automatically generate a JavaScript interface, as well as TypeScript declarations, for this application. This can be done in two ways. You can manually generate an interface using the `didc` tool, by going to the [releases](https://github.com/dfinity/candid/releases) tab of the dfinity/candid repository.
 
@@ -88,7 +86,7 @@ export interface _SERVICE {
 }
 ```
 
-The `_SERVICE` export includes a `greet` method, with typings for an array of arguments and a return type. This will be typed as an [ActorMethod](https://agent-js.icp.host/agent/interfaces/ActorMethod.html), which will be a handler that takes arguments and returns a promise that resolves with the type specified in the declarations.
+The `_SERVICE` export includes a `greet` method, with typings for an array of arguments and a return type. This will be typed as an [ActorMethod](https://agent-js.icp.xyz/agent/interfaces/ActorMethod.html), which will be a handler that takes arguments and returns a promise that resolves with the type specified in the declarations.
 
 Next, let's look at `hello.did.js`.
 
@@ -98,7 +96,7 @@ export const idlFactory = ({ IDL }) => {
 };
 ```
 
-Unlike our `did.d.ts` declarations, this `idlFactory` needs to be available during runtime. The `idlFactory` gets loaded by an [Actor](https://agent-js.icp.host/agent/interfaces/Actor.html) interface, which is what will handle structuring the network calls according to the IC API and the provided candid spec.
+Unlike our `did.d.ts` declarations, this `idlFactory` needs to be available during runtime. The `idlFactory` gets loaded by an [Actor](https://agent-js.icp.xyz/agent/interfaces/Actor.html) interface, which is what will handle structuring the network calls according to the IC API and the provided candid spec.
 
 This factory again represents a service with a `greet` method, and the same arguments as before. You may notice, however, that the `IDL.Func` has a third argument, which here is an empty array. That represents any additional annotations the function may be tagged with, which most commonly will be `"query"`.
 
@@ -132,7 +130,7 @@ This `Actor` instance is now set up to call all of the service methods as method
 
 ## Browser
 
-The browser context is the easiest to account for. The `fetch` API is available, and most apps will have an easy time determining whether they need to talk to `https://ic0.app` or a local replica, depending on their URL.
+The browser context is the easiest to account for. The `fetch` API is available, and most apps will have an easy time determining whether they need to talk to `https://icp0.io` or a local replica, depending on their URL.
 
 When you are building apps that run in the browser, here are some things to consider:
 
@@ -142,7 +140,7 @@ Updates to the IC may feel slow to your users, at around 2-4 seconds. When you a
 
 - Avoid blocking UI interactions while you wait for the result of your update. Instead, allow users to continuing to make other updates and interactions, and inform your users of success asyncronously.
 - Try to avoid making inter-canister calls. If the backend needs to talk to other canisters, the duration can add up quickly.
-- Use `Promise.all` to make multiple calls in a batch, instead of making them one-by-one
+- Use `Promise.all` to make multiple calls in a batch, instead of making them consecutively
 - If you need to fetch assets or data, you can make direct `fetch` calls to the `raw.ic0.app` endpoint for canisters
 
 ## Node.js
@@ -183,72 +181,6 @@ This will work out of the box, but you may also prefer to use a bundler to suppo
 
 ## Bundlers
 
-We recommend using a bundler to assemble your code for convenience and less troubleshooting. We provide a standard Webpack config, but you may also turn to Rollup, Vite, Parcel, or others. For this pattern, we recommend running a script to generate `.env.development` and `.env.production` environment variable files for your canister ids, which is a fairly standard approach for bundlers, and can be easily supported using [dotenv](https://www.npmjs.com/package/dotenv). Here is an example script you can run to map those files:
+We recommend using a bundler to assemble your code for convenience and less troubleshooting. We provide a standard Webpack config, but you may also turn to Rollup, Vite, Parcel, or others. Dfx will generate a `.env` file with your canister IDs for you automatically if you add a `output_env_file` configuration to `dfx.json`. The IDs will accurately reflect the `network` of your latest command, which makes it easier to manage having different `canister_ids` on your local machine vs production.
 
-```js
-// setupEnv.js
-const fs = require("fs");
-const path = require("path");
-
-function initCanisterEnv() {
-  let localCanisters, prodCanisters;
-  try {
-    localCanisters = require(
-      path.resolve(".dfx", "local", "canister_ids.json"),
-    );
-  } catch (error) {
-    console.log("No local canister_ids.json found");
-  }
-  try {
-    prodCanisters = require(path.resolve("canister_ids.json"));
-  } catch (error) {
-    console.log("No production canister_ids.json found");
-  }
-
-  const network =
-    process.env.DFX_NETWORK ||
-    (process.env.NODE_ENV === "production" ? "ic" : "local");
-
-  const canisterConfig = network === "local" ? localCanisters : prodCanisters;
-
-  const localMap = localCanisters
-    ? Object.entries(localCanisters).reduce((prev, current) => {
-        const [canisterName, canisterDetails] = current;
-        prev[canisterName.toUpperCase() + "_CANISTER_ID"] =
-          canisterDetails[network];
-        return prev;
-      }, {})
-    : undefined;
-  const prodMap = prodCanisters
-    ? Object.entries(prodCanisters).reduce((prev, current) => {
-        const [canisterName, canisterDetails] = current;
-        prev[canisterName.toUpperCase() + "_CANISTER_ID"] =
-          canisterDetails[network];
-        return prev;
-      }, {})
-    : undefined;
-  return [localMap, prodMap];
-}
-const [localCanisters, prodCanisters] = initCanisterEnv();
-
-if (localCanisters) {
-  const localTemplate = Object.entries(localCanisters).reduce((start, next) => {
-    const [key, val] = next;
-    if (!start) return `${key}=${val}`;
-    return `${start ?? ""}
-          ${key}=${val}`;
-  }, ``);
-  fs.writeFileSync(".env.development", localTemplate);
-}
-if (prodCanisters) {
-  const prodTemplate = Object.entries(prodCanisters).reduce((start, next) => {
-    const [key, val] = next;
-    if (!start) return `${key}=${val}`;
-    return `${start ?? ""}
-        ${key}=${val}`;
-  }, ``);
-  fs.writeFileSync(".env", localTemplate);
-}
-```
-
-Then, you can add `"prestart"` and `"prebuild"` commands of `dfx generate; node setupEnv.js`. Follow documentation for your preferred bundler on how to work with environment variables.
+Then, you can add `"prestart"` and `"prebuild"` commands of `dfx generate <my-backend-canister>`. Follow documentation for your preferred bundler on how to work with environment variables.

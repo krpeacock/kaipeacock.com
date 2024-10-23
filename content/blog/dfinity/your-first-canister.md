@@ -50,7 +50,7 @@ Click confirm again, and then you should be good to go!
 
 ## Connecting your computer
 
-For this example, I'll be using a [super minimal website](https://px4js-kiaaa-aaaah-aacqq-cai.ic0.app) as the app we are deploying.
+For this example, I'll be using a [super minimal website](https://px4js-kiaaa-aaaah-aacqq-cai.icp0.io) as the app we are deploying.
 
 The app isn't important, but you should be in a directory with a valid dfx project for the next instructions. You can follow along directly by cloning this [example project](https://github.com/krpeacock/ic-static-minimal):
 
@@ -97,7 +97,7 @@ Breaking down the command, dfx is deploying the project using the config from `d
 
 ![Deploying the site](/deploy-example-site.png)
 
-Finally, once the deployment is successful, open up a tab in your browser to `<canister-id>.ic0.app`, once agein replacing `<canister-id>` with your Canister ID.
+Finally, once the deployment is successful, open up a tab in your browser to `<canister-id>.icp0.io`, once agein replacing `<canister-id>` with your Canister ID.
 
 ![Live site](/live-site.png)
 
