@@ -10,6 +10,8 @@ tags = [
     "personal",
     "election"
   ]
+[extra.comments]
+id = "113438352006832586"
 +++
 
 The water tugs at the fresh-knit skin of my injured knuckles. It stings like pulling at a hangnail, which threatens to undo me and strip me to the bone. That's fine, today. The pain is correct, as is the fatigue in my limbs and the faint taste of iron in my mouth. The familiar signs of exhaustion after extreme exertion.
