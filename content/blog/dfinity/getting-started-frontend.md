@@ -1,17 +1,24 @@
 +++
 title = "Frontend Development on the Internet Computer"
 date = 2021-01-16
+updated = "2024-10-23"
 image = "/images/dfinity-logo.jpg"
 description = "Curious about how frontend code works on the Internet Computer? Here's what I've learned after two weeks on the job"
 [taxonomies]
 tags = ["dfinity", "frontend", "web development"]
 +++
 
+{% alert(note=true) %}
+This was one of the first blog posts I wrote about the Internet Computer. A lot has changed! I'm keeping this up for preservation purposes, but it's not the best reference if you're learning anymore.
+
+Check out [Using JavaScript with the Internet Computer](./agent-js) or the official [internetcomputer.org](https://internetcomputer.org) website instead
+{% end %}
+
 Curious about how frontend code works on the Internet Computer? Here's what I've learned after two weeks on the job.
 
 ## What you get in the starter
 
-If you're following the [Quick Start guide](https://sdk.dfinity.org/docs/quickstart/quickstart-intro.html), you'll get some useful instructions on how to install the `dfx` sdk, leading you to create a templated project using `dfx new hello`.
+If you're following the [Quick Start guide](https://internetcomputer.org/docs/quickstart/quickstart-intro.html), you'll get some useful instructions on how to install the `dfx` sdk, leading you to create a templated project using `dfx new hello`.
 
 ![How your project looks immediately after init](/dfx_hello_fresh.png)
 How your project looks immediately after init

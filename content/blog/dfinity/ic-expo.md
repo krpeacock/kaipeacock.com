@@ -11,17 +11,7 @@ tags = ["dfinity", "react native", "expo", "mobile development"]
 
 This tutorial will walk you through the process of building a React Native app for the Internet Computer using Expo and Internet Identity. It has been a while coming, due to the fact that `@dfinity/agent` has been using `webassembly` modules for verifying BLS signatures, but we now have a solution that works with React Native.
 
-> Note: this depends on a version of agent-js that has not been released as of publishing. To get started, you will need to download this zip file of the `@dfinity/agent`, `@dfinity/bls-verify`, and `@noble/curves` packages and install it locally in your project. Once the new version is released, you can remove this dependency and install the packages directly from npm.
-
-<a href="/react-native-deps.zip" download>Download Dependencies</a>
-
 Then, you can install the dependencies in your project:
-
-```bash
-npm install ./react-native-deps/dfinity-agent-0.20.2.tgz \
-./react-native-deps/dfinity-bls-verify-0.20.2.tgz \
-./react-native-deps/noble-curves-1.2.0.tgz
-```
 
 # Getting Started
 
@@ -53,7 +43,6 @@ npm install --save \
 @dfinity/principal \
 @dfinity/candid \
 @react-native-async-storage/async-storage \
-amcl-js \
 buffer \
 expo-secure-store
 ```

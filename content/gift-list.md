@@ -12,16 +12,6 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
 <h2>Clothing</h2>
 <section class="gift-section">
 <gift-item
-    link="https://cuyana.com/products/silk-asymmetrical-skirt?variant=44393458696507"
-    linkText="Cuyana"
-    image="https://cuyana.com/cdn/shop/products/sp19_silkasymmetricalskirt_black_0041-hero_900x900.jpg?v=1687317337"
-    id="silk-skirt"
-    description="Size XL in Black"
-    price="178"
-    title="Cuyana Silk Asymmetrical Skirt"
-    alt="silk-skirt"
-></gift-item>
-<gift-item
     link="https://www.fluevog.com/shop/5281-gladstone-black?item=9&of=32&anchor=true"
     linkText="Fluevog"
     image="https://www.fluevog.com/images/gladstone-black-mid-calf-lace-up-boot-profile-outside-colour_image-0000029889-retina_detail.webp"
@@ -32,14 +22,14 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="gladstone-boots"
 ></gift-item>
 <gift-item
-    link="https://www.etsy.com/listing/772955961/genuine-leather-black-holster-with?click_key=1ab311bd2eb799929bb95ee219ec553b3d65ede8%3A772955961&click_sum=806db059&ref=shop_home_active_1&pro=1&frs=1"
-    linkText="Etsy"
-    image="https://i.etsystatic.com/6109266/r/il/3f3678/2604264544/il_1588xN.2604264544_3aek.jpg"
-    id="leather-holster"
-    description="holster in black"
-    price="260"
-    title="Leather Holster"
-    alt="leather-holster"
+    link="https://darntough.com/collections/women/products/womens-merino-wool-solid-basic-crew-lightweight-lifestyle-socks?variant=37874302746810"
+    linkText="Darn Tough"
+    image="https://darntough.com/cdn/shop/files/6012_Black_a4657dbb-e06b-45c8-9daf-af0e4771c2c2_1080x.png?v=1710775045"
+    id="darn-tough-socks"
+    description="Size Large in Black (or whatever you think is fun. These are nice socks)"
+    price="23"
+    title="Nice Socks"
+    alt="darn-tough-socks"
 ></gift-item>
 <gift-item
     link="https://shop.spookyhaus.com/products/trans-symbol-earrings"
@@ -51,20 +41,30 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     title="Glitzy Trans Symbol Earrings"
     alt="trans earrings"
 ></gift-item>
-<gift-item
-    link="https://mantasleep.com/products/manta-sleep-mask?variant=44473174392985"
-    linkText="Manta Sleep"
-    image="https://mantasleep.com/cdn/shop/files/PINK-Buy-Box-1_1_1400x.png?v=1718070947"
-    id="manta-mask"
-    description="Manta Sleep Mask in Pink"
-    price="35"
-    title="Manta Sleep Mask"
-    alt="manta-mask"
-></gift-item>
 </section>
 
-<h2>Home</h2>
+<h2>Stuff</h2>
 <section class="gift-section">
+<gift-item
+    link="https://teenage.engineering/store/ep-133/"
+    linkText="Teenage Engineering"
+    image="https://images.prismic.io/teenageengineering/b6516aad-c805-4ed6-a2a8-01e647140c3c_KO+II+front.png?auto=compress&w=4096&h=1"
+    id="sampler"
+    description="cool sampler and drum machine"
+    price="299"
+    title="EP–133 K.O. II"
+    alt="EP–133 K.O. II"
+></gift-item>
+<gift-item
+    link="https://www.uperfectmonitor.com/products/uperfect-x-14-pro-wireless-lapdock"
+    linkText="Uperfect Monitor"
+    image="https://www.uperfectmonitor.com/cdn/shop/files/uperfect-x-14-pro-wireless-lapdock-140g02_1024x1024.png?v=1694584202"
+    id="uperfect-lapdock"
+    description="Portable monitor with touch screen. Perfect for my phone, Raspberry Pi, or Steam Deck"
+    title="Uperfect X-14 Pro Wireless Lapdock"
+    alt="Uperfect X-14 Pro Wireless Lapdock"
+    price="389">
+    </gift-item>
 <gift-item
     link="https://www.deltafaucet.com/kitchen/product/9113T-DST.html"
     linkText="Delta Faucet"
@@ -86,14 +86,24 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="icecream"
 ></gift-item>
 <gift-item
-    link="https://yetch.store/products/small-coat-hinger-bracket-kit-pre-order"
-    linkText="Yetch"
-    image="https://imgproxy.fourthwall.com/Ea-Z8ga5kjvCmdWlPYUG90MMOVz9fI8hr4mzMQaaS1s/sm:1/enc/ZWVlMGFlOGE5ODk3/ODQ0ODWLM3OwT6iV/ZH6UeHSku1ukWmPA/09f_rAAKlM5CnqcC/e1EihE2gGHmdBGs7/NV7BRMF2dtmp9FxL/Eq_KoE9EdSJvc--F/z287Yre8FMsZ4m1M/6KbB0xRJcqrLgAfb/99OUlTvUIYSUCA4-/wp29LmCgh2EuRZS5/dSDWbtsRjQxUinfs/znde6LTjuFRTUGgY/IxQX-Q.webp"
-    id="coat-hanger"
-    description="Neat little space-saving coat hanger from Simone Giertz"
-    price="150"
-    title="Yetch Coat Hinger"
-    alt="coat-hanger"
+    link="https://shop.a24films.com/products/i-saw-the-tv-glow-blu-ray"
+    linkText="a24 shop"
+    image="https://cdn.accentuate.io/6965070921777/1722020337047/20240721_A24_I-Saw-the-TV-Glow_Blu-Ray_11607-tight-gray.jpg?v=1722020337047"
+    id="i-saw-the-tv-glow"
+    description="I Saw the TV Glow Blu-ray"
+    price="30"
+    title="I Saw the TV Glow Blu-ray"
+    alt="I Saw the TV Glow"
+></gift-item>
+<gift-item
+    link="https://shop.a24films.com/products/i-saw-the-tv-glow-original-motion-picture-soundtrack"
+    linkText="a24 shop"
+    image="https://cdn.accentuate.io/6921146007601/1714518563798/02_ISTG_Vinyl_Front_Cover_With_Records.jpg?v=1714518563798"
+    id="i-saw-the-tv-glow-soundtrack"
+    description="I Saw the TV Glow Soundtrack"
+    price="40"
+    title="I Saw the TV Glow Soundtrack"
+    alt="I Saw the TV Glow Soundtrack"
 ></gift-item>
 <gift-item
     link="https://www.amazon.com/dp/B08G8RG8Q8/ref=emc_bcc_2_i?th=1"
@@ -118,13 +128,6 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="avowed"
 ></gift-item>
 </section>
-<gift-item
-link="https://www.nintendo.com/us/store/products/the-legend-of-zelda-echoes-of-wisdom-119253/"   image="https://gamingbolt.com/wp-content/uploads/2024/06/the-legend-of-zelda-echoes-of-wisdom-box-image.jpg"
-    id="zelda"
-    description="Echoes of Wisdom (cartridge preferred)"
-    title="Legend of Zelda"
-    alt="zelda"
-></gift-item>
 </section>
 
 

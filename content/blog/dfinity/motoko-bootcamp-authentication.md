@@ -42,7 +42,7 @@ Today, close to a year since the Genesis Mainnet launch event, there are many ap
   - Storage
 - Boundary Nodes
   - Public API
-  - Http Interface at [ic0.app](https://ic0.app)
+  - Http Interface at [icp-api.io](https://icp-api.io)
 - Agents
   - Make calls to the API
   - Identity and Signatures as primitives
@@ -77,7 +77,7 @@ The Internet Computer has a governance system, called the NNS. ICP tokens that a
 - Actors are the encouraged model for IC canisters
   - May modify their own private state
   - Communicate with other Actors through messages
-- Agents are designed to interact with the [Interface Spec](https://smartcontracts.org/docs/interface-spec/index.html)
+- Agents are designed to interact with the [Interface Spec](https://internetcomputer.org/docs/interface-spec/index.html)
   - CBOR encoding
   - Interpreting Candid into an appropriate interface
   - Making query and update calls to the IC API
