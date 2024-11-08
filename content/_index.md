@@ -3,7 +3,7 @@ sort_by = "date"
 page_template = "index.html"
 +++
 
-# Kai Peacock
+# Kaia Peacock
 
 is a web developer
 
