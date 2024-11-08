@@ -1,12 +1,12 @@
 +++
-title = "About Kai"
+title = "About Kaia"
 date = 2022-01-07
 template = "about.html"
 [extra.comments]
 id = "113041764016930768"
 +++
 
-# About Kai
+# About Kaia (or Kai)
 
 What's there to say about me, really? I know on a website like this, you normally start by saying what you do for work. However, in real life, I hardly ever say what I do for work unless someone asks. That doesn't always take a long time, but it's not information that I generally volunteer.
 
