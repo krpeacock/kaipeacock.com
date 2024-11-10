@@ -12,7 +12,7 @@ tags = [
     "lgbt",
     "trans",
     "Newsom",
-    "Weiner",
+    "Wiener",
     "Lurie",
     "California"
   ]
@@ -20,7 +20,7 @@ tags = [
 id = "113459582558644596"
 +++
 
-Dear Gavin Newsom, Scott Weiner, and Daniel Lurie,
+Dear Gavin Newsom, Scott Wiener, and Daniel Lurie,
 
 In the near future, the US government is going to give us an offer that you will be tempted to accept.
 Your advisors will tell you that it solves one of your greatest political weaknesses, that we would be fools not to take the money.
