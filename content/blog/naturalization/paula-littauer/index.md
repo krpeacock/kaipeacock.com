@@ -9,9 +9,11 @@ description = "Paula, my great aunt once removed, had her story as a refugee fro
 >   shoot’
 > </h2>
 
-Note - this is an article authored by Paula Litteauer, my great aunt once removed. It contains excerpts from her diary as a refugee in hiding during WWII, published in the New York Times. You can read the full text here, or download the PDF down at the bottom of the page.
-
+{% alert(note=true) %}
+This is an article authored by Paula Littauer, my great aunt once removed. It contains excerpts from her diary as a refugee in hiding during WWII, published in the New York Times. You can read the full text here, or download the PDF down at the bottom of the page.
 [Jump to PDF](#full-pdf-and-download)
+{% end %}
+
 
 ---
 

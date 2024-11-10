@@ -4,6 +4,8 @@ original_date = 2022-07-14
 date = 2022-09-26
 description = "Chronicling my efforts to obtain German Citizenship"
 [extra]
+previous = "/blog/naturalization/paula-littauer"
+previous_text = "Aunt Paula's Journal"
 next = "/blog/naturalization/update"
 next_text = "Naturalization Update"
 +++

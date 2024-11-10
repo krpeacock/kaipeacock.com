@@ -27,3 +27,7 @@ How dare you tell me that it's going to be okay? How dare you call for unity not
 I know what it means to be the scapegoat minority that a dictator uses to ascend to power. I know that the threats to tear us apart have real weight. I am so scared right now.
 
 My body screams at me to stop, having exhausted the supply of oxygen in my blood. I take a gasping breath, and then finish swimming to the nearest wall. My eyes and lungs are burning. My knuckles now only feel a dull ache against the intensity of the exercise. I check the clock and it has only been ten minutes. That's fine. I've been training for this. I'll keep swimming until the waves stop coming.
+
+___
+
+That's at least the poetic outcome, anyway.
