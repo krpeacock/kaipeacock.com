@@ -56,6 +56,16 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="EP–133 K.O. II"
 ></gift-item>
 <gift-item
+    link="https://njbice.com/plein-air/"
+    linkText="njbice.com"
+    image="https://njbice.com/wp-content/uploads/2024/08/50_50-19th-Ave020.jpg"
+    id="painting"
+    description="One from the 50/50 series or another you like"
+    price="250"
+    title="Art by NJ Bice"
+    alt="Goache painting of a view of Golden Gate Bridge from Golden Gate Park"
+></gift-item>
+<gift-item
     link="https://www.uperfectmonitor.com/products/uperfect-x-14-pro-wireless-lapdock"
     linkText="Uperfect Monitor"
     image="https://www.uperfectmonitor.com/cdn/shop/files/uperfect-x-14-pro-wireless-lapdock-140g02_1024x1024.png?v=1694584202"
@@ -66,14 +76,14 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     price="389">
     </gift-item>
 <gift-item
-    link="https://www.deltafaucet.com/kitchen/product/9113T-DST.html"
-    linkText="Delta Faucet"
-    image="https://www.deltafaucet.com/dw/image/v2/BFJJ_PRD/on/demandware.static/-/Sites-delta-master-catalog/default/dwce2ffc02/images/large/9113T-DST-B1.png?sw=560&sh=560&sm=fit"
-    id="faucet"
-    description="I've fully decided I'm getting this either way"
-    price="598"
-    title="Touch Start Kitchen Faucet"
-    alt="faucet"
+    link="https://www.guitarcenter.com/Fender/Mustang-Micro-Plus-Headphone-Amp-Black-1500000422519.gc"
+    linkText="Guitar Center"
+    image="https://media.guitarcenter.com/is/image/MMGS7/M09811000001000-00-600x600.jpg"
+    id="headphone-amp"
+    description="Miniature practice amp for guitar or bass"
+    title="Fender Headphone Amp"
+    price="130"
+    id="headphone-amp"
 ></gift-item>
 <gift-item
     link="https://www.amazon.com/dp/B088DNK94C"
@@ -104,16 +114,6 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     price="40"
     title="I Saw the TV Glow Soundtrack"
     alt="I Saw the TV Glow Soundtrack"
-></gift-item>
-<gift-item
-    link="https://www.amazon.com/dp/B08G8RG8Q8/ref=emc_bcc_2_i?th=1"
-    linkText="Amazon"
-    image="https://m.media-amazon.com/images/I/71JHo8dEyYL._AC_SX679_.jpg"
-    id="ladder"
-    description="gotta get up high"
-    price="113"
-    title="Boweiti Telescoping Ladder"
-    alt="ladder"
 ></gift-item>
 </section>
 
