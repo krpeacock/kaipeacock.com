@@ -46,15 +46,15 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
 <h2>Stuff</h2>
 <section class="gift-section">
 <gift-item
-    link="https://teenage.engineering/store/ep-133/"
-    linkText="Teenage Engineering"
-    image="https://images.prismic.io/teenageengineering/b6516aad-c805-4ed6-a2a8-01e647140c3c_KO+II+front.png?auto=compress&w=4096&h=1"
-    id="sampler"
-    description="cool sampler and drum machine"
-    price="299"
-    title="EP–133 K.O. II"
-    alt="EP–133 K.O. II"
-></gift-item>
+    link="https://nexdock.com/explore-nexdock/"
+    linkText="Nexdock"
+    image="https://nexdock.com/wp-content/uploads/2020/12/nexdock-360-laptop.jpg"
+    id="nexdock"
+    description="Portable monitor with touch screen. Perfect for my phone, Raspberry Pi, or Steam Deck"
+    title="Nexdock"
+    alt="Nexdock"
+    price="300">
+    </gift-item>
 <gift-item
     link="https://njbice.com/plein-air/"
     linkText="njbice.com"
@@ -66,16 +66,6 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="Goache painting of a view of Golden Gate Bridge from Golden Gate Park"
 ></gift-item>
 <gift-item
-    link="https://nexdock.com/explore-nexdock/"
-    linkText="Nexdock"
-    image="https://nexdock.com/wp-content/uploads/2020/12/nexdock-360-laptop.jpg"
-    id="nexdock"
-    description="Portable monitor with touch screen. Perfect for my phone, Raspberry Pi, or Steam Deck"
-    title="Nexdock"
-    alt="Nexdock"
-    price="300">
-    </gift-item>
-<gift-item
     link="https://www.guitarcenter.com/Fender/Mustang-Micro-Plus-Headphone-Amp-Black-1500000422519.gc"
     linkText="Guitar Center"
     image="https://media.guitarcenter.com/is/image/MMGS7/M09811000001000-00-600x600.jpg"
@@ -84,6 +74,16 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     title="Fender Headphone Amp"
     price="130"
     id="headphone-amp"
+></gift-item>
+<gift-item
+    link="https://teenage.engineering/store/ep-133/"
+    linkText="Teenage Engineering"
+    image="https://images.prismic.io/teenageengineering/b6516aad-c805-4ed6-a2a8-01e647140c3c_KO+II+front.png?auto=compress&w=4096&h=1"
+    id="sampler"
+    description="cool sampler and drum machine"
+    price="299"
+    title="EP–133 K.O. II"
+    alt="EP–133 K.O. II"
 ></gift-item>
 <gift-item
     link="https://www.amazon.com/dp/B088DNK94C"
