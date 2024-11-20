@@ -66,14 +66,14 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="Goache painting of a view of Golden Gate Bridge from Golden Gate Park"
 ></gift-item>
 <gift-item
-    link="https://www.uperfectmonitor.com/products/uperfect-x-14-pro-wireless-lapdock"
-    linkText="Uperfect Monitor"
-    image="https://www.uperfectmonitor.com/cdn/shop/files/uperfect-x-14-pro-wireless-lapdock-140g02_1024x1024.png?v=1694584202"
-    id="uperfect-lapdock"
+    link="https://nexdock.com/explore-nexdock/"
+    linkText="Nexdock"
+    image="https://nexdock.com/wp-content/uploads/2020/12/nexdock-360-laptop.jpg"
+    id="nexdock"
     description="Portable monitor with touch screen. Perfect for my phone, Raspberry Pi, or Steam Deck"
-    title="Uperfect X-14 Pro Wireless Lapdock"
-    alt="Uperfect X-14 Pro Wireless Lapdock"
-    price="389">
+    title="Nexdock"
+    alt="Nexdock"
+    price="300">
     </gift-item>
 <gift-item
     link="https://www.guitarcenter.com/Fender/Mustang-Micro-Plus-Headphone-Amp-Black-1500000422519.gc"
