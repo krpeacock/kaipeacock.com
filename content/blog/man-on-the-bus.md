@@ -9,6 +9,7 @@ tags = [
     "personal",
   ]
 [extra.comments]
+id = "113550255595529117"
 +++
 
 "Is that a man or a woman?" some guy loudly asked the bus driver. I'd just boarded the bus, wearing an elegant outfit I'd put together for a lounge music performance some friends put on. He was so far away, in another car of the bus. I assumed he was harrassing another trans person.
