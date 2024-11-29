@@ -1,4 +1,5 @@
 +++
+transparent = true
 title = "Is that a man or a woman?"
 date = 2024-11-25
 description = "A response to that man on the bus last night"
@@ -28,6 +29,9 @@ I am more than you can imagine. Your entire world is too small to contain me. My
 
 What power do you think you have over me? Why should I fear you or your disdain? You're just a man. My path was set before me by divine ordain and I still chose my own way. The gender binary will not contain me. You lack the standing to complain about my gender. There is no authority I acknowledge over my expression. I have wrestled God to win this freedom. Are you angry that I don't fit into your boxes? Are you afraid? You should be."</i>
 
-<br/>
+<figure >
+  <img src="this-is-the-age-of-sin-maya-charlton.jpg" alt="Transgender symbol with a radioactivity symbol in the center. Text reads: This is the Age of Sin. Reject the order or creation. Revel in the annihilation of Man as the image of God. Destroy. Plot designs of death. Disfigure the face of Man and Woman." style="max-height: 450px"/>
+  <figcaption>Art by Maya Charlton</figcaption>
+</figure>
 
 And so I raged silently until I made my way home. That man will never hear those words. No one would, unless I chose to write them down. He was just one fool in a world filled with bigots. But I do feel sad for him. He will never know the joys I have felt. He will never know himself the way I know myself, and his entire world is smaller for it.
