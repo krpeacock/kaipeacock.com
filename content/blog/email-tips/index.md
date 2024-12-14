@@ -87,4 +87,8 @@ One final note - if you try to visit Gmail with this account they will show you 
 
 ## Campaigns
 
-Coming soon!
+Zoho campaings offers the sorts of email automation and newsletter support you might imagine for running a business. A lot of the more advanced automation and functionality is locked behind a paywall, but you can use it to coordinate up to 2,000 contacts and send 6,000 messages per month, which is plenty for a small website and newsletter like mine.
+
+To migrate from Substack, I simply exported my mailing list to `csv` and imported it into campaigns. You will have to set up more two more text records for your domain, but once that's done you can send email blasts from your own address, with a nice wysiwyg editor.
+
+See this guide on configuring `spf` and `dkim` TXT records: [https://help.zoho.com](https://help.zoho.com/portal/en/kb/campaigns/deliverability-guide/domain-authentication/domain-authentication-techniques/articles/how-to-setup-spf-and-dkim-txt-records-for-your-domain#Add_your_sender_domain)
