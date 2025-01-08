@@ -91,7 +91,7 @@ show_feed = true
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
     { url = "@/about.md", name = "About" },
-    { url = "https://github.com/krpeacock/kaipeacock.com", name = "Repo" },
+    { url = "/links", name = "Links" },
 ]
 
 [extra.footer]
@@ -99,7 +99,7 @@ links = [
 # Same as the nav ones.
 links = [
     { url = "@/blog/_index.md", name = "Blog" },
-    { url = "https://github.com/krpeacock/kaipeacock.com", name = "Repo" },
+    { url = "/links", name = "Links" },
     { url = "@/gift-list.md", name = "Wish List" },
 ]
 # Social links in the footer.
