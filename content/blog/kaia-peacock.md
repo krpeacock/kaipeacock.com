@@ -1,6 +1,7 @@
 +++
 title = "Kaia Peacock"
 date = 2025-01-01
+updated = 2025-01-10
 description = "Name and gender change, and more"
 [taxonomies]
 tags = [
@@ -13,6 +14,14 @@ tags = [
   ]
 [extra.comments]
 +++
+
+{% alert(note=true) %}
+January 10 Update
+{% end %}
+
+On January 9th, I had an appointment with the German Embassy in San Fransisco. We decided to attempt to use the new law for self determination and see how the government responds. I sent out my letter registering my intent to declare a name change *(an absurdly German concept)* and now I'm waiting to see if they protest me keeping the X gender marker while changing my name.
+
+---
 
 Hi, my name is Kaia Peacock, and I'm a woman. At least, according the state of California. The important transition milestones never really stop coming, it seems. At time of writing, my pronouns are they/she.
 
