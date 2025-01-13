@@ -3,7 +3,7 @@ const max = 20;
 const letters = [];
 const input = document.querySelector("#characters");
 
-input.value = "aeukpcthsnx6dlwgrmf";
+input.value = "aeukpcthsnx2dlwgrmf";
 
 input.maxLength = max;
 input.addEventListener("keyup", (e) => {
@@ -20,13 +20,13 @@ function update() {
 the forms     were signed
 and sealed
 
-did I stop to consider
+did i stop to consider
 at age 32
 
-I would need to learn
-to sign my own name once again
+i would need to learn
+to sign my own name again
 
-Kaia Peacock`;
+kaia peacock`;
   const letters = [...input.value.toLowerCase()];
   console.log(poem);
   console.log(poem.split(""));
