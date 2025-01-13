@@ -13,11 +13,14 @@ tags = [
 
 <br/>
 
+<form action="">
 <label for = "characters">
 Enter characters to reveal the poem
 <br/>
 <input type="text" id="characters" name="characters">
 </label>
+<button type="reset" id="clear">clear</button>
+</form>
 
 <pre>
 <div id="poem"></div>
