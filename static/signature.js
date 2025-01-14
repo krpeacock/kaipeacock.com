@@ -1,4 +1,4 @@
-const max = 20;
+const max = 22;
 // let initialCharacters = "sfckpwtqhnx2dlwgrm6";
 const input = document.querySelector("#characters");
 const poemDiv = document.querySelector("#poem");
@@ -29,7 +29,7 @@ at age 32
 1 would need to l34rn
 to sign my 0wn name 4gain
 5lowly
-with pr4ctice
+1ike a chi1d
 
 love
 kaia peacock`;
