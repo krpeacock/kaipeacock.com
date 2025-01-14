@@ -19,16 +19,19 @@ input.addEventListener("keyup", (e) => {
 });
 
 function update() {
-  const poem = `only after
+  const poem = `0nly after
 the forms     were signed
-and sealed
+and seal3d
 
-did i stop to consider
+did 1 stop to consider
 at age 32
 
-i would need to learn
-to sign my own name again
+1 would need to l34rn
+to sign my 0wn name 4gain
+5lowly
+with pr4ctice
 
+love
 kaia peacock`;
   // const letters = [...initialCharacters, ...input.value.toLowerCase()].slice(
   //   -1 * max
