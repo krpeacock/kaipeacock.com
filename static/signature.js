@@ -1,4 +1,4 @@
-const max = 22;
+const max = 25;
 // let initialCharacters = "sfckpwtqhnx2dlwgrm6";
 const input = document.querySelector("#characters");
 const poemDiv = document.querySelector("#poem");
