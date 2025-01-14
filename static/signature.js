@@ -1,16 +1,20 @@
-const max = 25;
+const max = 24;
 // let initialCharacters = "sfckpwtqhnx2dlwgrm6";
 const input = document.querySelector("#characters");
 const poemDiv = document.querySelector("#poem");
 const clearButton = document.querySelector("#clear");
 
 input.maxLength = max;
+
 input.addEventListener("keyup", (e) => {
   if (e.keyCode < 48 || e.keyCode > 106) {
     return;
   }
   if (input.value.length === max) {
-    // protect against repeat keys
+    // protect against duplicates once full
+    if (input.value.includes(e.key)) return;
+
+    // protect against repeated keys
     if (input.value[input.value.length - 1] !== e.key) {
       input.value = input.value.slice(1) + e.key;
     }
