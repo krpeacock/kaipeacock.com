@@ -15,7 +15,7 @@ tags = [
 
 <form action="">
 <label for = "characters">
-Enter letters and numbers to reveal the poem
+Type letters and numbers to reveal the poem. If you can't read it, keep typing!
 <br/>
 <input type="text" id="characters" name="characters">
 </label>
