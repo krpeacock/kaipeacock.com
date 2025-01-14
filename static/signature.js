@@ -9,8 +9,11 @@ input.addEventListener("keyup", (e) => {
   if (e.keyCode < 48 || e.keyCode > 106) {
     return;
   }
-  if (input.value.length >= max) {
-    input.value = input.value.slice(1, max) + e.key;
+  if (input.value.length === max) {
+    // protect against repeat keys
+    if (input.value[input.value.length - 1] !== e.key) {
+      input.value = input.value.slice(1) + e.key;
+    }
   }
   update();
 });
