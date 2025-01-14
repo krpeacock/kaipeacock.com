@@ -1,5 +1,5 @@
 const max = 20;
-let initialCharacters = "aeukpcthsnx2dlwgrmf";
+// let initialCharacters = "sfckpwtqhnx2dlwgrm6";
 const input = document.querySelector("#characters");
 const poemDiv = document.querySelector("#poem");
 const clearButton = document.querySelector("#clear");
@@ -27,9 +27,10 @@ i would need to learn
 to sign my own name again
 
 kaia peacock`;
-  const letters = [...initialCharacters, ...input.value.toLowerCase()].slice(
-    -1 * max
-  );
+  // const letters = [...initialCharacters, ...input.value.toLowerCase()].slice(
+  //   -1 * max
+  // );
+  const letters = [...input.value.toLowerCase()].slice(-1 * max);
   const newPoem = [...poem].reduce((prev, next) => {
     if (next === "\n") {
       prev += next;
