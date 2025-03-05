@@ -1,7 +1,7 @@
 +++
-title = "Archimedes Banya"
+title = "Transphobia at Archimedes Banya"
 date = 2025-08-05
-description = "One of my favorite bathhouses has turned on me. I'm pissed."
+description = "One of my safe spaces decided to turn against trans women and I'm pissed."
 [taxonomies]
 tags = [
     "trans",
