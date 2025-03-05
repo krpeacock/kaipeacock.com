@@ -12,6 +12,7 @@ tags = [
     "archimedes banya"
   ]
 [extra.comments]
+id = 114111332810142793
 +++
 
 It's inauguration day, January 20th, 2025. I know it's going to be bad. I've been preparing for how much this new administration was going to do to strip away my rights since election night. I've deleted every social media and news app off my phone to avoid getting exposed to coverage of the election. It's time to focus on taking care of myself and staying alive. It's time to be offline. So where do I go? I go to a safe space, Archimedes Banya.
