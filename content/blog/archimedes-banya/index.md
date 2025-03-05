@@ -37,6 +37,10 @@ The time there was pleasant. I changed in the women's locker room, and no one wa
 
 Why am I sharing this? Well you may or may not have seen news this week about protests against Archimedes Banya coming out of San Francisco right now. According to the wayback machine, as reported in [this article from the SF Examiner](https://www.sfexaminer.com/news/the-city/archimedes-banya-spa-backlash-follows-gender-policy-changes/article_feda005e-f95a-11ef-8f1d-6be1172c14a6.html), a few days after my visit, the Banya management surreptitiously updated the pages for their longstanding women's and men's night monthly events. The new copy read "To further accommodate their religious beliefes we have to limit admission on Women's Day to **BIOLOGICAL WOMEN ONLY**" (emphasis was present in the original text).
 
+After activists noticed this change and the press started reporting on the discrimination, Banya tried to change their language and announced that they would have two women's nights: one for the bigots and a separate "inclusive" women's night. This text is posted in a full-page popup window on their website at time of posting. No "inclusive" men's night has been proposed.
+
+This is still discrimination, regardless of their justifications. Archimedes Banya has banned transgender men and women from using their facilities on two nights out of the month.
+
 Reporting on this has been mixed in its quality. The headline from the [SF Standard](https://sfstandard.com/2025/03/04/archimedes-banya-ladies-only-night-trans-women-excluded/) reads "SF bathhouse excludes trans women from new ladies-only night". This is an innacurate and I'd assume malicious framing. Trans women have always attended Women's night at Banya. My husband used to attend pre-transition and spoke of it fondly. It was a less crowded and quieter night to attend, and I'd been looking forward to attending at some point with friends. I've often recommended it to other trans women and nonbinary friends who were interested in having a bathing experience in the city but were uncomfortable and wanted to have a safe experience!
 
 > Trans women have always attended Women's night at Banya.
