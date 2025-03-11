@@ -62,7 +62,7 @@ I got in trouble with my home church for asking too many questions. Eventually I
 
 Without even knowing the word drag, I wore a french maid costume out to a halloween swing dance party. Such a funny joke
 
-I met my partner while studying abroad in Oxford.
+I met my husband while studying abroad in Oxford.
 
 I finally found the other queers at Wheaton College. I'll never know if they saw who I was then
 
@@ -74,7 +74,7 @@ I signed a pledge to never donate to the college if they fired Dr. Larycia Hawki
 
 It took me another 5 years to come out as queer. It took another 2 to leave the church.
 
-Today I'm a trans, nonbinary polyamorous queerdo. I'm a US and German citizen. I have a lot of religious trauma - enough that it feels like my spark for art is gone.
+Today I'm a trans woman living in the city. I'm a US and German citizen. I'm an athlete, a software enginner, and someone who feels things deeply. I'm working through my religious trauma through art and community, and I'm determined to get my people through the current wave of fascism in America.
 
 It took a great deal of self-reflection and healing to get where I am today. I owe a lot to the people who have loved me and supported me through the journey to where I am now. It's hard to exist in this world as someone who cares deeply. I want to be someone who takes action and makes a difference, but many days I'm simply too tired to do much besides scroll on my phone outside my other commitments.
 
@@ -82,7 +82,7 @@ There's a lot to still be excited about and enjoy, but I'm focusing on the small
 
 [^1]: A scandalous reveal of my assigned gender at birth 😮
 [^2]: Tbh I started a whole league. At age 16, I met with the founders of the fledgeling [logos forensics](https://logosforensics.org/) league and was the first *"coach"* to join
-[^3]: For real this place was a nightmare. At one point they literally asked me to research "the gay agenda" and the research I did was ironically the actual first glimpse I had into queer theory  and political identities. See [splcenter.org](https://www.splcenter.org/fighting-hate/extremist-files/group/pacific-justice-institute)
+[^3]: For real this place was a nightmare. At one point they literally asked me to research "the gay agenda" and the research I did was ironically the actual first glimpse I had into queer theory and trans identities. See [splcenter.org](https://www.splcenter.org/fighting-hate/extremist-files/group/pacific-justice-institute)
 
 <br/>
 <br/>
