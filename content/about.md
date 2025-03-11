@@ -1,5 +1,6 @@
 +++
 title = "About Kaia"
+description = "Identity is a nuanced thing. Bear with me as I muse about it a little and tell my story."
 date = 2022-01-07
 template = "about.html"
 [extra.comments]
