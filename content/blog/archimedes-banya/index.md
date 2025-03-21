@@ -1,6 +1,7 @@
 +++
 title = "Transphobia at Archimedes Banya"
 date = 2025-08-05
+updated = "2025-03-21"
 description = "One of my safe spaces decided to turn against trans women and I'm pissed."
 [taxonomies]
 tags = [
@@ -16,6 +17,12 @@ id = 114111332810142793
 +++
 
 It's inauguration day, January 20th, 2025. I know it's going to be bad. I've been preparing for how much this new administration was going to do to strip away my rights since election night. I've deleted every social media and news app off my phone to avoid getting exposed to coverage of the election. It's time to focus on taking care of myself and staying alive. It's time to be offline. So where do I go? I go to a safe space, Archimedes Banya.
+
+---
+
+{% alert(note=true) %}
+Update: as of March 12, Banya has walked back its policy. They will offer clothed and unclothed women's and men's nights, and trans women will not be prohibited from any night. This is the result of protest and negotiation, and is definitely a victory for the trans community in SF.
+{% end %}
 
 ---
 
