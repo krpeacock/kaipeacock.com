@@ -1,6 +1,6 @@
 +++
 title = "When to flee"
-date = 2024-11-06
+date = 2025-03-31
 description = "Today is transgender day of visibility, and I decided to muse on some relevant topics my trans friends are talking about"
 [taxonomies]
 tags = [
