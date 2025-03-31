@@ -1,0 +1,10 @@
+{
+    // ...existing code...
+    "forwardPorts": [1111],
+    "features": {
+        "docker-in-docker": {
+            "version": "latest"
+        }
+    }
+    // ...existing code...
+}
