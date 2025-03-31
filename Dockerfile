@@ -1,8 +1,15 @@
-FROM ghcr.io/getzola/zola:v0.19.1 AS zola
+FROM rust:slim-bookworm AS builder
 
-COPY . /project
-WORKDIR /project
+RUN apt-get update -y && \
+  apt-get install -y make g++ libssl-dev && \
+  rustup target add x86_64-unknown-linux-gnu
 
-EXPOSE 1111
+WORKDIR /app
+COPY . .
 
-RUN ["zola", "serve"]
+RUN cargo build --release --target x86_64-unknown-linux-gnu
+
+
+FROM gcr.io/distroless/cc-debian12
+COPY --from=builder /app/target/x86_64-unknown-linux-gnu/release/zola /bin/zola
+ENTRYPOINT [ "/bin/zola" ]
