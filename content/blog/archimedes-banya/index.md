@@ -1,6 +1,6 @@
 +++
 title = "Transphobia at Archimedes Banya"
-date = 2025-08-05
+date = 2025-03-05
 updated = "2025-03-21"
 description = "One of my safe spaces decided to turn against trans women and I'm pissed."
 [taxonomies]
