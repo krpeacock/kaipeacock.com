@@ -25,7 +25,7 @@ However, I don't think it's correct to simply write off "sex is immutable" as so
 
 ## What is a woman?
 
-I'll be focusing on the profile of womanhood for the sake of this discussion, but there are of course corrolaries for men. Medically speaking, the sexual characteristics of women consist of the following.
+I'll be focusing on the profile of womanhood for the sake of this discussion, but there are of course corollaries for men. Medically speaking, the sexual characteristics of women consist of the following.
 
 ### Primary sex characteristics
 
@@ -33,7 +33,7 @@ These are categorized as the female reproductive organs, the ovaries, fallopian 
 
 ### Secondary sex characteristics
 
-These develop during puberty, such as breast development, wider hips, typically includes mensturation, distribution of body fat into the hips, thighs, and breasts, and typically less body hair.
+These develop during puberty, such as breast development, wider hips, typically includes menstruation, distribution of body fat into the hips, thighs, and breasts, and typically less body hair.
 
 ### Hormonal profile
 
@@ -45,7 +45,7 @@ Scientists have discovered that several patterns of chromosomes present in women
 
 ## However
 
-Exceptions to all these categories exist. Primary sex characteristics are changeable. Due to health considerations or personal choice, a cisgender woman can modify any and all of her reproductive organs and genitalia without changing her status as a cisgender woman. Intersex people also exist, up to 1.7 percent of the population. They may have ambiguous genitalia, the presence of both testes and ovaries, and many more forms of variation. This is not always obvious at birth, but we still tragically have doctors intervening to "correct" sex traits that contradict our simplstic binary understanding of sex characteristics. And of course, trans women are able to have vaginas, genitalia, and will likely be able to receive uterus transplants as medicine advances.
+Exceptions to all these categories exist. Primary sex characteristics are changeable. Due to health considerations or personal choice, a cisgender woman can modify any and all of her reproductive organs and genitalia without changing her status as a cisgender woman. Intersex people also exist, up to 1.7 percent of the population. They may have ambiguous genitalia, the presence of both testes and ovaries, and many more forms of variation. This is not always obvious at birth, but we still tragically have doctors intervening to "correct" sex traits that contradict our simplistic binary understanding of sex characteristics. And of course, trans women are able to have vaginas, genitalia, and will likely be able to receive uterus transplants as medicine advances.
 
 Reducing women to their reproductive abilities is also harmful to women. There are many reasons that someone may be unable get pregnant. Some women are born without functioning uteruses or ovaries. Someone doesn't stop being a woman post-menopause, nor are girls not girls until they start to have periods. We are human beings. Our value is intrinsic, whether you believe that is a mandate from god or because it is simply what we morally owe to each other. The logic of sorting humans according to their ability to carry children is deeply rooted in the oppression of women, but that is a conversation for another time.
 
