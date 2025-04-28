@@ -1,5 +1,5 @@
 const max = 24;
-// let initialCharacters = "sfckpwtqhnx2dlwgrm6";
+let initialCharacters = "sfck0pwtqhnx3dlwgrm6";
 const input = document.querySelector("#characters");
 const poemDiv = document.querySelector("#poem");
 const clearButton = document.querySelector("#clear");
@@ -37,10 +37,10 @@ to sign my 0wn name 4gain
 
 love
 kaia peacock`;
-  // const letters = [...initialCharacters, ...input.value.toLowerCase()].slice(
-  //   -1 * max
-  // );
-  const letters = [...input.value.toLowerCase()].slice(-1 * max);
+  const letters = [...initialCharacters, ...input.value.toLowerCase()].slice(
+    -1 * max
+  );
+  // const letters = [...input.value.toLowerCase()].slice(-1 * max);
   const newPoem = [...poem].reduce((prev, next) => {
     if (next === "\n") {
       prev += next;
