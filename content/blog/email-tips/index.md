@@ -67,7 +67,7 @@ This one is really exciting to me! I'd been using Zoho for years, and while it g
 
 This is all solved through this new trick I figured out recently - you can create a Google account without a Gmail account!
 
-Start by going to the account switcher in a Google account, and then below your existing accounts, click "use another account". From there, click "create account", fill out your name and a date of birth, and finally click the "Use your existing email" button.
+Start by going to [https://kaipeacock.com/blog/email-tips/](https://kaipeacock.com/blog/email-tips/), and then below your existing accounts, click "use another account". From there, click "create account", fill out your name and a date of birth, and finally click the "Use your existing email" button.
 
 <figure >
   <img src="use-existing.png" alt="The penultimate step of the Google signup process, where you can click Use Your Existing Email" style="max-height: 450px"/>
