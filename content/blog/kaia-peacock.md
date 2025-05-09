@@ -19,7 +19,7 @@ tags = [
 January 10 Update
 {% end %}
 
-On January 9th, I had an appointment with the German Embassy in San Fransisco. We decided to attempt to use the new law for self determination and see how the government responds. I sent out my letter registering my intent to declare a name change *(an absurdly German concept)* and now I'm waiting to see if they protest me keeping the X gender marker while changing my name.
+On January 9th, I had an appointment with the German Embassy in San Francisco. We decided to attempt to use the new law for self determination and see how the government responds. I sent out my letter registering my intent to declare a name change *(an absurdly German concept)* and now I'm waiting to see if they protest me keeping the X gender marker while changing my name.
 
 ---
 

@@ -15,7 +15,7 @@ What's there to say about me, really? I know on a website like this, you normall
 
 ---
 
-I work five days out of the week. That's a pretty substantial time commitment. More than any specific other activity besides sleeping. It's hard to avoid dwelling on it or identifying with it to some exent. In 2016, I quit law school to learn how to code. By early 2017 I had my first job in the field, and I've been working since then.
+I work five days out of the week. That's a pretty substantial time commitment. More than any specific other activity besides sleeping. It's hard to avoid dwelling on it or identifying with it to some extent. In 2016, I quit law school to learn how to code. By early 2017 I had my first job in the field, and I've been working since then.
 
 Since the early days of the COVID-19 pandemic, I've been working remotely. My current company is based in Zurich, where I've visited a couple of times. In general though, I keep to my own home, and I work out of [The Academy](https://www.academy-sf.com/) a few days of the week, mainly to stretch my legs and change my point of view.
 
@@ -27,7 +27,7 @@ Since I'm married, a lot of my home life is shared doing things with my spouse. 
 
 Two days a week, I swim with the [SF Tsunamis](https://www.sftsunami.org/), an LGBT swim club in San Francisco. Swimming was a huge part of my life growing up, and it's something I'm glad to be involved in. I've finally gotten back into competition shape, and I'm racing with the US Master's league.
 
-3 hours a week is all I generally manage though. That's already such a small amount of time! Partly because the other practices are at further away pools, but otherwise it's because I'm *"too busy"* That's wild to acknowledge, but it's true. I joined the team because I wanted more consistency in my schedule, and it's been working. I only make it two days a week, and it's still the most consistent thing I've invested into outside of work and simply *"being at home"*.
+3 hours a week is all I generally manage though. That's already such a small amount of time! Partly because the other practices are at further away pools, but otherwise it's because I'm *"too busy"*. That's wild to acknowledge, but it's true. I joined the team because I wanted more consistency in my schedule, and it's been working. I only make it two days a week, and it's still the most consistent thing I've invested into outside of work and simply *"being at home"*.
 
 ---
 
@@ -63,13 +63,13 @@ I interned for a Christian "Non Profit Legal Defense Organization" that's classi
 
 I got in trouble with my home church for asking too many questions. Eventually I was kicked out.
 
-Without even knowing the word drag, I wore a french maid costume out to a halloween swing dance party. Such a funny joke
+Without even knowing the word drag, I wore a french maid costume out to a halloween swing dance party. Such a funny joke.
 
 I met my husband while studying abroad in Oxford.
 
-I finally found the other queers at Wheaton College. I'll never know if they saw who I was then
+I finally found the other queers at Wheaton College. I'll never know if they saw who I was then.
 
-My psychiatrist diagnosed me with major depression and ADHD
+My psychiatrist diagnosed me with major depression and ADHD.
 
 I signed a pledge to never donate to the college if they fired Dr. Larycia Hawkins for expressing solidarity with Muslim people. They fired her in 2015.
 
@@ -84,7 +84,7 @@ It took a great deal of self-reflection and healing to get where I am today. I o
 There's a lot to still be excited about and enjoy, but I'm focusing on the smaller things these days. I may not fix the world, but I can participate in my local community and culture, eat tasty food, walk to the grocery store, and ride the bus.
 
 [^1]: A scandalous reveal of my assigned gender at birth 😮
-[^2]: Tbh I started a whole league. At age 16, I met with the founders of the fledgeling [logos forensics](https://logosforensics.org/) league and was the first *"coach"* to join
+[^2]: Tbh I started a whole league. At age 16, I met with the founders of the fledgling [logos forensics](https://logosforensics.org/) league and was the first *"coach"* to join
 [^3]: For real this place was a nightmare. At one point they literally asked me to research "the gay agenda" and the research I did was ironically the actual first glimpse I had into queer theory and trans identities. See [splcenter.org](https://www.splcenter.org/fighting-hate/extremist-files/group/pacific-justice-institute)
 
 <br/>

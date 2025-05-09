@@ -3,7 +3,7 @@ title = "Using JavaScript with the Internet Computer"
 date = 2022-05-02
 updated = "2024-10-23"
 image = "/images/dfinity-logo.jpg"
-description = "Getting started with IC Development - Hhw the JavaScript Agent works, my recommended workflows, and how to get set up with various tools and environments"
+description = "Getting started with IC Development - How the JavaScript Agent works, my recommended workflows, and how to get set up with various tools and environments"
 [taxonomies]
 tags = ["dfinity", "javascript", "icp"]
 +++
@@ -124,7 +124,7 @@ export const createActor = (canisterId, options) => {
 };
 ```
 
-This constructor first creates a `HttpAgent`, which is wraps the JS `fetch` API and uses it to encode calls through the public API. We also optionally fetch the root key of the replica, for non-mainnet deployments. Finally, we create an Actor using the automatically generated interface for the canister we will call, passing it the `canisterId` and the `HttpAgent` we have initialized.
+This constructor first creates a `HttpAgent`, which wraps the JS `fetch` API and uses it to encode calls through the public API. We also optionally fetch the root key of the replica, for non-mainnet deployments. Finally, we create an Actor using the automatically generated interface for the canister we will call, passing it the `canisterId` and the `HttpAgent` we have initialized.
 
 This `Actor` instance is now set up to call all of the service methods as methods. Once this is all set up, like it is by default in the `dfx new` template, you can simply run `dfx generate` whenever you make changes to your canister API, and the full interface will automatically stay in sync in your frontend code.
 
@@ -138,7 +138,7 @@ When you are building apps that run in the browser, here are some things to cons
 
 Updates to the IC may feel slow to your users, at around 2-4 seconds. When you are building your application, take that latency into consideration, and consider following some best practices:
 
-- Avoid blocking UI interactions while you wait for the result of your update. Instead, allow users to continuing to make other updates and interactions, and inform your users of success asyncronously.
+- Avoid blocking UI interactions while you wait for the result of your update. Instead, allow users to continue to make other updates and interactions, and inform your users of success asynchronously.
 - Try to avoid making inter-canister calls. If the backend needs to talk to other canisters, the duration can add up quickly.
 - Use `Promise.all` to make multiple calls in a batch, instead of making them consecutively
 - If you need to fetch assets or data, you can make direct `fetch` calls to the `raw.ic0.app` endpoint for canisters

@@ -129,7 +129,7 @@ At last, give you a pleasantly-configured dev server set up out of the box. `npm
 
 Changes to your `assets` directory or `src` in the `<canister-name>_assets` directory will kick off hot-reload updates to the browser. API calls to will be proxied to `localhost:8000`, so you can interact with the local replica seamlessly.
 
-<h2 id="migrating-your-project>Migrating your project</h2>
+<h2 id="migrating-your-project">Migrating your project</h2>
 
 If you have an existing project, you may need to make some adjustments when upgrading to 0.7.7+.
 

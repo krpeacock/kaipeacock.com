@@ -36,7 +36,7 @@ It's been a busy week, so that's about all I'll get to today, but soon I'll foll
 
 ## Postscript
 
-I almost forgot! I'm taking ownership of those NPM packages now. There are lots of improvments to look forward to, but my focus will be on improving our documentation for now.
+I almost forgot! I'm taking ownership of those NPM packages now. There are lots of improvements to look forward to, but my focus will be on improving our documentation for now.
 
 The new docs are hosted as static websites on the IC, which I think is pretty neat.
 
