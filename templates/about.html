@@ -1,6 +1,26 @@
 {% extends "base.html" %}
+{% import "macros/heading_hierarchy.html" as heading_macros %}
 
 {% block content %}
+{{ heading_macros::fix_heading_hierarchy() }}
+
+{# Add specific fixes for the about page heading structure #}
+<style>
+  /* Fix for about page specifically */
+  article h4 {
+    font-size: 2rem !important; /* Make h4 look like h3 */
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+  
+  /* Ensure proper nesting appearance in the about page */
+  article blockquote h4 {
+    font-size: 1.5rem !important; /* Inside blockquotes, make h4 smaller */
+    margin-top: 1rem !important;
+    margin-bottom: 0.5rem !important;
+  }
+</style>
+
 {%- include "partials/statements.html" -%}
 {{ page.content | safe }}
 

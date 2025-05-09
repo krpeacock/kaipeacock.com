@@ -316,9 +316,11 @@ language_strings=language_strings) | replace(from="_", to="-") -%}
         					boosts.className = "boosts";
         					boosts.setAttribute("href", `${status.url}/reblogs`);
         					boosts.setAttribute("title", `{{ macros_translate::translate(key="boosts_from", default="Boosts from", language_strings=language_strings) }} ${instance}`);
+                            boosts.setAttribute("aria-label", `{{ macros_translate::translate(key="boosts_from", default="Boosts from", language_strings=language_strings) }} ${instance}`);
 
         					let boostsIcon = document.createElement("i");
         					boostsIcon.className = "icon";
+                            boostsIcon.setAttribute("aria-hidden", "true");
         					boosts.appendChild(boostsIcon);
         					boosts.insertAdjacentHTML('beforeend', ` ${status.reblogs_count}`);
         					interactions.appendChild(boosts);
@@ -327,9 +329,11 @@ language_strings=language_strings) | replace(from="_", to="-") -%}
         					faves.className = "faves";
         					faves.setAttribute("href", `${status.url}/favourites`);
         					faves.setAttribute("title", `{{ macros_translate::translate(key="faves_from", default="Favorites from", language_strings=language_strings) }} ${instance}`);
+                            faves.setAttribute("aria-label", `{{ macros_translate::translate(key="faves_from", default="Favorites from", language_strings=language_strings) }} ${instance}`);
 
         					let favesIcon = document.createElement("i");
         					favesIcon.className = "icon";
+                            favesIcon.setAttribute("aria-hidden", "true");
         					faves.appendChild(favesIcon);
         					faves.insertAdjacentHTML('beforeend', ` ${status.favourites_count}`);
         					interactions.appendChild(faves);

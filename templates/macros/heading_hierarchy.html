@@ -1,0 +1,55 @@
+{# Macro for fixing heading hierarchy by adding CSS to transform heading levels #}
+{% macro fix_heading_hierarchy() %}
+<style>
+/* CSS to fix heading hierarchy - transforms heading levels visually */
+main article h3 {
+  font-size: 2.5rem; /* Same as h2 */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+main article h4 {
+  font-size: 2rem; /* Same as h3 */
+  margin-top: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+main article h5 {
+  font-size: 1.5rem; /* Same as h4 */
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+main article h6 {
+  font-size: 1rem; /* Same as h5 */
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Add special classes for when we need to transform specific headings */
+.heading-level-1 {
+  font-size: 3rem !important;
+  font-weight: 900 !important;
+}
+
+.heading-level-2 {
+  font-size: 2.5rem !important;
+}
+
+.heading-level-3 {
+  font-size: 2rem !important;
+}
+
+.heading-level-4 {
+  font-size: 1.5rem !important;
+}
+
+.heading-level-5 {
+  font-size: 1rem !important;
+}
+
+.heading-level-6 {
+  font-size: 0.75rem !important;
+}
+</style>
+{% endmacro %}

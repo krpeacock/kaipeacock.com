@@ -53,7 +53,9 @@ At that new school, I:
   * mission trips
   * youth group
 
-> #### I was accustomed to being many things.
+### Being Many Things
+
+> I was accustomed to being many things.
 
 In college, I swam for 1 year, and joined the advanced choir. I dropped swimming, but sang through my whole experience.
 
@@ -75,7 +77,7 @@ I signed a pledge to never donate to the college if they fired Dr. Larycia Hawki
 
 It took me another 5 years to come out as queer. It took another 2 to leave the church.
 
-Today I'm a trans woman living in the city. I'm a US and German citizen. I'm an athlete, a software enginner, and someone who feels things deeply. I'm working through my religious trauma through art and community, and I'm determined to get my people through the current wave of fascism in America.
+Today I'm a trans woman living in the city. I'm a US and German citizen. I'm an athlete, a software engineer, and someone who feels things deeply. I'm working through my religious trauma through art and community, and I'm determined to get my people through the current wave of fascism in America.
 
 It took a great deal of self-reflection and healing to get where I am today. I owe a lot to the people who have loved me and supported me through the journey to where I am now. It's hard to exist in this world as someone who cares deeply. I want to be someone who takes action and makes a difference, but many days I'm simply too tired to do much besides scroll on my phone outside my other commitments.
 

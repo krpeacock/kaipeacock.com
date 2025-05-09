@@ -147,6 +147,28 @@ footer {
     background-color: var(--primary-color-dark);
 }
 
+/* Accessibility helper classes */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
+/* Style for newsletter heading that maintains h3 appearance while using h2 element */
+.newsletter-heading {
+  margin: 0 0 1rem;
+  text-align: center;
+  color: var(--fg-muted-4);
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
 @media (min-width: 1200px) {
     #site-footer {
         position: relative;

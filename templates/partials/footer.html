@@ -1,9 +1,9 @@
 {%- set rel_attributes = macros_rel_attributes::rel_attributes() | trim -%}
 
-<footer id="site-footer">
+<footer id="site-footer" role="contentinfo" aria-label="Site footer">
     <section id="footer-nav">
         {%- if config.extra.footer.links %}
-        <nav>
+        <nav aria-label="Footer navigation">
             <ul>
                 {%- for link in config.extra.footer.links %} {%- if link.url is
                 matching('https?://') %}
@@ -66,10 +66,12 @@
                     href="{{ link.url | safe }}"
                     rel="{{ rel_attributes }} me"
                     title="{{ link.name }}"
+                    aria-label="{{ link.name }}"
                 >
                     <i
                         class="icon"
                         style='mask-image: url("data:image/svg+xml,{{ link.icon }}"); -webkit-mask-image: url("data:image/svg+xml,{{ link.icon }}")'
+                        aria-hidden="true"
                     ></i>
                     <span>{{ link.name }}</span>
                 </a>
@@ -80,7 +82,7 @@
     </section>
     <section id="newsletter">
         <div class="newsletter-container">
-            <h3>Subscribe to my newsletter</h3>
+            <h2 class="newsletter-heading">Subscribe to my newsletter</h2>
             <form action="https://zcsub-cmpzourl.maillist-manage.com/weboptin.zc" method="POST" target="_zcSignup" class="newsletter-form">
                 <div class="form-group">
                     <input type="email" name="CONTACT_EMAIL" placeholder="Your email" required>
