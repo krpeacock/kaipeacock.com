@@ -1,0 +1,160 @@
+/* Custom vintage terminal styling */
+.terminal-container {
+    padding: 20px;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 200, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+    /* Set a 4:3 aspect ratio by default */
+    width: 100%;
+    max-width: 640px;
+    aspect-ratio: 4/3;
+}
+
+/* Taller aspect ratio for small screens to fit the poem */
+@media screen and (max-width: 767px) {
+    .terminal-container {
+        aspect-ratio: 7/6; /* Taller ratio for small screens */
+    }
+}
+
+.terminal-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.15),
+        rgba(0, 0, 0, 0.15) 1px,
+        transparent 1px,
+        transparent 2px
+    );
+    pointer-events: none;
+    z-index: 100;
+}
+
+.terminal-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+        ellipse at center,
+        transparent 0%,
+        rgba(0, 0, 0, 0.2) 80%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    pointer-events: none;
+    z-index: 101;
+}
+
+/* Override xterm.js default styles */
+.terminal-container .xterm {
+    padding: 10px;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.xterm .xterm-viewport {
+    overflow: hidden !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.terminal-container .xterm-viewport,
+.terminal-container .xterm-screen {
+    background-color: #000 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Green vintage text */
+.terminal-container .xterm-text-layer {
+    color: #33ff33 !important;
+    font-family: "Courier New", monospace;
+    text-shadow: 0 0 5px rgba(51, 255, 51, 0.7);
+}
+
+/* Responsive font sizes for different screen sizes */
+@media screen and (max-width: 480px) {
+    .terminal-container .xterm-text-layer {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .terminal-container .xterm-text-layer {
+        font-size: 12px !important;
+    }
+}
+
+.terminal-container .terminal-cursor {
+    background-color: #33ff33 !important;
+    border-color: #33ff33 !important;
+}
+
+/* Add some scan line animation */
+@keyframes scanline {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(480px); /* Increased to ensure full movement across the container */
+    }
+}
+
+.terminal-container .scanline {
+    position: absolute;
+    top: -20px; /* Start slightly above the container to ensure smooth entry */
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(
+        to bottom,
+        rgba(51, 255, 51, 0),
+        rgba(51, 255, 51, 0.1),
+        rgba(51, 255, 51, 0)
+    );
+    animation: scanline 6s linear infinite; /* Slightly faster animation */
+    pointer-events: none;
+    z-index: 102;
+}
+
+/* Style for terminal controls */
+.terminal-controls {
+    margin-bottom: 10px;
+    display: flex;
+    gap: 1rem;
+}
+
+.terminal-controls button {
+    background-color: #222;
+    color: #33ff33;
+    border: 1px solid #33ff33;
+    padding: 8px 16px;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(51, 255, 51, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.terminal-controls button:hover {
+    background-color: #333;
+    box-shadow: 0 0 15px rgba(51, 255, 51, 0.6);
+}
+
+/* Style for active auto mode button */
+.terminal-controls button.active {
+    background-color: #33ff33;
+    color: #000;
+    box-shadow: 0 0 15px rgba(51, 255, 51, 0.8);
+}
