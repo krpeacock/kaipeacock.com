@@ -7,14 +7,19 @@ const poemDiv = document.querySelector("#poem");
 const clearButton = document.querySelector("#clear");
 const autoModeButton = document.querySelector("#auto-mode");
 
+// Keep track of the currently displayed poem text to avoid unnecessary refreshes
+let currentPoemDisplay = "";
+let forceFullRefresh = true; // Force a full refresh on first load
+
 // Auto mode variables
 let autoModeActive = false;
+let wasAutoModeActive = false; // To track changes in auto mode state
 let autoModeInterval = null;
 let autoModeTimeout = null;
-const autoModeBaseDelay = 500; // Base delay (1 second)
+const autoModeBaseDelay = 200; // Base delay (1 second)
 const autoModeJitterRange = 400; // Additional random delay between 0-500ms
 // All unique characters in the poem (for auto mode)
-const poemUniqueChars = "'0nlyafterhomswigd31pc2u45kv'";
+const poemUniqueChars = "0nlyafterhomswigd31pc2u45kv";
 
 // Hide the original input field as we'll use terminal directly
 const input = document.querySelector("#characters");
@@ -70,8 +75,8 @@ var term = new Terminal({
   },
   fontFamily: 'Courier New, monospace',
   fontSize: getResponsiveFontSize(),
-  cursorBlink: true,
-  ...getResponsiveTerminalDimensions() // Use responsive dimensions
+  cursorBlink: false,
+  rows: 20, cols: 60,
 });
 
 const terminalDiv = document.getElementById('terminal');
@@ -96,22 +101,20 @@ term.onKey(function (e) {
     autoModeInterval = null;
     clearTimeout(autoModeTimeout);
     autoModeTimeout = null;
+    
+    // Reset auto mode button appearance
+    if (autoModeButton) {
+      autoModeButton.textContent = "Auto Mode";
+      autoModeButton.classList.remove("active");
+    }
+    
     update();
     return;
   }
   
   // Handle printable characters (letters and numbers)
   if (key.length === 1 && /[a-zA-Z0-9]/.test(key)) {
-    // Add to our buffer
-    if (inputBuffer.length >= max) {
-      // Remove first character when buffer is full
-      inputBuffer = inputBuffer.slice(1) + key.toLowerCase();
-    } else {
-      inputBuffer += key.toLowerCase();
-    }
-    
-    // Update the poem visualization
-    update();
+    processCharacter(key);
   }
   // Handle Backspace
   else if (ev.keyCode === 8) {
@@ -153,6 +156,7 @@ kaia peacock`;
   const letters = [...initialCharacters, ...inputBuffer].slice(
     -1 * max
   );
+  
   // Create a new rendered poem based on the current input
   const newPoem = [...poem].reduce((prev, next) => {
     if (next === "\n") {
@@ -165,18 +169,78 @@ kaia peacock`;
     return prev;
   }, ``);
   
-  // Clear the terminal completely
-  term.clear();
+  // First time or forced refresh case (including auto mode toggle)
+  if (!currentPoemDisplay || autoModeActive !== wasAutoModeActive || forceFullRefresh) {
+    // Clear the terminal completely
+    term.clear();
+    
+    // Write the header message without any extra characters
+    term.write(promptMsg);
+    
+    // Show the poem
+    term.write(newPoem);
+    
+    // Add a line break and input prompt at the bottom
+    term.write("\r\n\r\n");
+    
+    // Save the current state
+    currentPoemDisplay = newPoem;
+    wasAutoModeActive = autoModeActive;
+    forceFullRefresh = false;
+    return;
+  }
   
-  // Write the header message without any extra characters
-  term.write(promptMsg);
+  // For subsequent updates, use cursor positioning to only update changed characters
+  // First, save the cursor position
+  term.write("\u001B[s"); // Save cursor
+  
+  // Calculate base offset for poem in the terminal (header + auto mode text if present)
+  let lineOffset = promptMsg.split("\r\n").length - 1;
+  
+  // Split both current and new poems into lines
+  const currentLines = currentPoemDisplay.split("\r\n");
+  const newLines = newPoem.split("\r\n");
+  
+  // Go through each line
+  for (let i = 0; i < newLines.length; i++) {
+    const currentLine = currentLines[i] || "";
+    const newLine = newLines[i];
+    
+    // Go through each character in the line
+    for (let j = 0; j < Math.max(currentLine.length, newLine.length); j++) {
+      const currentChar = currentLine[j] || " ";
+      const newChar = newLine[j] || " ";
+      
+      if (currentChar !== newChar) {
+        // Position cursor at this character
+        term.write(`\u001B[${i + 1 + lineOffset};${j + 1}H`);
+        // Write the new character
+        term.write(newChar);
+      }
+    }
+  }
+  
+  // Restore cursor position and add proper spacing at the end
+  term.write("\u001B[u"); // Restore cursor
+  
+  // Store the new poem as the current state
+  currentPoemDisplay = newPoem;
+}
 
-  
-  // // Then show the poem
-  term.write(newPoem);
-  
-  // Add a line break and input prompt at the bottom
-  term.write("\r\n\r\n");
+// Function to process a character (used by both manual and auto typing)
+function processCharacter(char) {
+  if (char.length === 1 && /[a-zA-Z0-9]/.test(char)) {
+    // Add to our buffer
+    if (inputBuffer.length >= max) {
+      // Remove first character when buffer is full
+      inputBuffer = inputBuffer.slice(1) + char.toLowerCase();
+    } else {
+      inputBuffer += char.toLowerCase();
+    }
+    
+    // Update the poem visualization
+    update();
+  }
 }
 
 // Toggle auto mode function
@@ -207,19 +271,8 @@ async function toggleAutoMode() {
       const randomIndex = Math.floor(Math.random() * charPool.length);
       const randomChar = charPool[randomIndex];
       
-      // Since we're in auto mode, directly update the buffer instead of
-      // trying to trigger the terminal's key handler which could have side effects
-      
-      // Add to our buffer (same logic as manual typing)
-      if (inputBuffer.length >= max) {
-        // Remove first character when buffer is full
-        inputBuffer = inputBuffer.slice(1) + randomChar.toLowerCase();
-      } else {
-        inputBuffer += randomChar.toLowerCase();
-      }
-      
-      // Update the poem visualization
-      update();
+      // Process the character using the same function as manual typing
+      processCharacter(randomChar);
       
       // Only schedule next character if auto mode is still active
       if (autoModeActive) {
@@ -278,6 +331,7 @@ clearButton.addEventListener("click", () => {
   
   initialCharacters = "";
   inputBuffer = "";
+  forceFullRefresh = true; // Force a complete refresh when clearing
   update(); // Will redraw everything with the right structure
   
   // Focus back on the terminal
