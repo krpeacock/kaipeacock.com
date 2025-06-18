@@ -1,6 +1,7 @@
 +++
 title = "The Swimsuit Situation"
 date = 2024-08-29
+updated = 2025-06-18
 description = "A story of being trans in sports"
 [taxonomies]
 tags = [
@@ -139,6 +140,6 @@ I had fun, an it's nice to be back into a sport that's meant a lot to me for so 
 [^3]: Read: the rules of a swim league headquartered in Florida
 [^4]: [transgender_policy.pdf](https://www.usms.org/-/media/usms/pdfs/guide%20to%20operations%20-%20gto/policies%20and%20governance/policies/transgender_policy.pdf)
 [^5]: Fun fact - the healthy range for cisgender women is 0.5 to 2.4 nmol/L, and anyone can have health problems if their testosterone falls below those levels!
-[^6]: At present
+[^6]: At time of writing. I began identifying as a woman soon after this in 2024.
 [^7]: [USMS Rule book](https://www-usms-hhgdctfafngha6hr.z01.azurefd.net/-/media/usms/pdfs/volunteer%20central/rule%20book/part%201.pdf?rev=dd59368cab6e4d519797e5846a49df30&hash=F2991F5754801ACE4465604A08726B70)
 [^8]: [https://www.usms.org/comp/meets/indresults.php?SwimmerID=08AE7](https://www.usms.org/comp/meets/indresults.php?SwimmerID=08AE7)
