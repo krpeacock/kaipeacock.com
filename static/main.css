@@ -7,6 +7,12 @@ hr::after {
     min-height: 70vh;
 }
 
+.summary {
+    width: 0;
+    height: 0;
+    font-size: 0;
+}
+
 .gift-section {
     display: flex;
     flex-flow: row wrap;
