@@ -83,8 +83,14 @@ class GiftItem extends HTMLElement {
     this.shadowRoot.querySelector("h3").textContent =
       this.getAttribute("title");
 
+    const formattedPrice = Intl.NumberFormat("en-US", {
+      style: "currency",
+      currency: "USD",
+      maximumFractionDigits: 0,
+    }).format(this.getAttribute("price"));
+
     const description = `${this.getAttribute("description")}${
-      this.getAttribute("price") ? ` - $${this.getAttribute("price")}` : ""
+      this.getAttribute("price") ? ` - ${formattedPrice}` : ""
     }`;
 
     this.shadowRoot.querySelector("#description").textContent = description;
