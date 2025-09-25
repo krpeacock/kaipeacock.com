@@ -31,6 +31,16 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     title="Curator Cadence Pants in Forest"
     alt="curator-pants"
 ></gift-item>
+<gift-item
+    link="https://www.levi.com/US/en_US/clothing/women/overalls-jumpsuits/overalls/baggy-highwater-womens-overalls/p/A60790004"
+    linkText="Levi's"
+    image="https://lsco.scene7.com/is/image/lsco/A60790004-front-pdp-ld?fmt=jpeg&qlt=70&resMode=sharp2&fit=crop,1&op_usm=0.6,0.6,8&wid=880&hei=880"
+    id="levis"
+    title="Baggy Highwater Women's Overalls"
+    description="size XL in dark indigo"
+    price="128"
+    alt="levis"
+></gift-item>
 </section>
 <h2>E-Bike? 🥺</h2>
 <section class="gift-section">
