@@ -21,6 +21,7 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     title="Wedge Pillows Set"
     alt="pillow"
 ></gift-item>
+</section>
 <h2>Clothing</h2>
 <section class="gift-section">
 <gift-item
