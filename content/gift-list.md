@@ -9,6 +9,18 @@ date = 2024-08-16
 
 Mostly a place to keep track of things I'm interested in, for when holidays and birthdays come up. The point of this is to replace using Amazon wishlists and to manage it myself
 
+<h2>Recovery</h2>
+<section class="gift-section">
+<gift-item
+    link="https://a.co/d/5XA2CXT"
+    image="https://m.media-amazon.com/images/I/71ZmjRP7JcL._AC_SX679_.jpg"
+    linkText="Amazon"
+    id="pillow"
+    description="Wedge Pillow for after surgery"
+    price="38.99"
+    title="Wedge Pillows Set"
+    alt="pillow"
+></gift-item>
 <h2>Clothing</h2>
 <section class="gift-section">
 <gift-item
@@ -40,6 +52,39 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     description="size XL in dark indigo"
     price="128"
     alt="levis"
+></gift-item>
+</section>
+<h2>Games</h2>
+<section class="gift-section">
+<gift-item
+    link="https://store.steampowered.com/app/1145350/Hades_II/"
+    linkText="Steam"
+    image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTPA6j1YHfdjxi0BYlHMUl1INz4EuZ-XAuQrigrQnV49opd68ZO"
+    id="hades-2"
+    description="PC game"
+    price="29.99"
+    title="Hades II"
+    alt="hades-2"
+></gift-item>
+<gift-item
+    link="https://store.steampowered.com/app/1934570/South_of_Midnight/"
+    linkText="Steam"
+    image="https://cdn.akamai.steamstatic.com/steam/apps/1934570/capsule_616x353.jpg?t=1700785803"
+    id="south-of-midnight"
+    description="PC game"
+    price="29.99"
+    title="South of Midnight"
+    alt="south-of-midnight"
+></gift-item>
+<gift-item
+    link="https://store.steampowered.com/app/2359120/Consume_Me/"
+    linkText="Steam"
+    image="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2359120/e8a024adceea4ab8f851274785ec7d62d8bf64fc/header.jpg?t=1758745344"
+    id="consume-me"
+    description="PC game"
+    price="13.49"
+    title="Consume Me"
+    alt="consume-me"
 ></gift-item>
 </section>
 <h2>E-Bike? 🥺</h2>
