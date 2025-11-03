@@ -9,31 +9,8 @@ date = 2024-08-16
 
 Mostly a place to keep track of things I'm interested in, for when holidays and birthdays come up. The point of this is to replace using Amazon wishlists and to manage it myself
 
-<h2>Recovery</h2>
-<section class="gift-section">
-<gift-item
-    link="https://a.co/d/5XA2CXT"
-    image="https://m.media-amazon.com/images/I/71ZmjRP7JcL._AC_SX679_.jpg"
-    linkText="Amazon"
-    id="pillow"
-    description="Wedge Pillow for after surgery"
-    price="38.99"
-    title="Wedge Pillows Set"
-    alt="pillow"
-></gift-item>
-</section>
 <h2>Clothing</h2>
 <section class="gift-section">
-<gift-item
-    link="https://atoms.com/products/atoms-model-001-peach?utm_source=Klaviyo&utm_medium=email&utm_campaign=09%2F20%2F2025+%E2%80%93+Model+001+Black+Presale+Follow+Up+%E2%80%93+2025+Sept+%E2%80%93+Model+001+Black+Presale+%E2%80%93+Mid+Intent+%5BSubscribers%5D+%282025-09-20%29&utm_id=01K57HYJ7EDW9B6MEGR4N7CNZB&utm_term=QcB3Ng&utm_content=We%E2%80%99ve+been+getting+your+messages%2C+DMs%2C+and+emails+asking+when+Model+001+%E2%80%93+Black+would+be+back.+And+now%2C+we+are+excited+to+share+that+pre-orders+for+Model+001+%E2%80%93+Black+are+now+live.+*Orders+will+start+shipping+by+Sept+26%2C+2025.+Reserve+your+pair&tw_source=Klaviyo&_kx=2G5QTdofI9DJQNjSyAVDtPiSPc6_lARlprAYEBgTi4M.JhWmMn&Size=M+13+%2F+W+14.5"
-    linkText="Atoms"
-    image="https://cdn.shopify.com/s/files/1/0231/2060/9358/files/Model001-IsometricAngle-4x5-3000px.png?v=1723518319&width=1400&height=1750&crop=center"
-    id="atoms"
-    description="size 13 womens in peach"
-    price="179"
-    title="Atoms 001 in Peach"
-    alt="atoms"
-></gift-item>
 <gift-item
     link="https://www.curatorsf.com/products/cadence-pant-forest?_pos=1&_sid=01b45c064&_ss=r&variant=41966711996475"
     linkText="Curator"
@@ -55,51 +32,52 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     alt="levis"
 ></gift-item>
 </section>
+<h2>Stuff</h2>
+<section class="gift-section">
+    <gift-item
+        link="https://bathingculture.com/collections/towels/products/bathhouse-check-organic-robe?variant=42073572212825"
+        linkText="Bathing Culture"
+        title="Bathhouse Check Organic Robe"
+        image="https://bathingculture.com/cdn/shop/files/BCOR_Oak_P1_770x.webp?v=1737504979"
+        id="bathing-culture-robe"
+        description="size large"
+        price="157"
+        alt="bath robe with a checker pattern"
+    ></gift-item>
+    <gift-item
+        link="https://tomsstudio.com/products/lumos?variant=47370994549011"
+        linkText="Tom's Studio"
+        image="https://tomsstudio.com/cdn/shop/files/lumos-pro-single-lilac.jpg?v=1755285826&width=932"
+        id="lumos"
+        title="Lumos Pro Pen"
+        description="in lilac"
+        price="65"
+        alt="lumos pro pen in lilac"
+    ></gift-item>
+    <gift-item
+        image="https://m.media-amazon.com/images/I/71TwbBDzRHL._AC_SX569_.jpg"
+        link="https://a.co/d/0yg3FtG"
+        linkText="Amazon"
+        id="klipsta"
+        title="Klipsta Flip Bag Hook"
+        description="in silver"
+        price="35"
+        alt="klipsta flip bag hook in silver"
+    ></gift-item>
+
+</section>
 <h2>Games</h2>
 <section class="gift-section">
-<gift-item
-    link="https://store.steampowered.com/app/1145350/Hades_II/"
-    linkText="Steam"
-    image="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTPA6j1YHfdjxi0BYlHMUl1INz4EuZ-XAuQrigrQnV49opd68ZO"
-    id="hades-2"
-    description="PC game"
-    price="29.99"
-    title="Hades II"
-    alt="hades-2"
-></gift-item>
-<gift-item
-    link="https://store.steampowered.com/app/1934570/South_of_Midnight/"
-    linkText="Steam"
-    image="https://cdn.akamai.steamstatic.com/steam/apps/1934570/capsule_616x353.jpg?t=1700785803"
-    id="south-of-midnight"
-    description="PC game"
-    price="29.99"
-    title="South of Midnight"
-    alt="south-of-midnight"
-></gift-item>
-<gift-item
-    link="https://store.steampowered.com/app/2359120/Consume_Me/"
-    linkText="Steam"
-    image="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2359120/e8a024adceea4ab8f851274785ec7d62d8bf64fc/header.jpg?t=1758745344"
-    id="consume-me"
-    description="PC game"
-    price="13.49"
-    title="Consume Me"
-    alt="consume-me"
-></gift-item>
-</section>
-<h2>E-Bike? 🥺</h2>
-<section class="gift-section">
-<gift-item
-    link="https://www.gazellebikes.com/en-us/ebikes/gazelle-arroyo-c7-elite?color=color-frozen-white&frame=frame-low"
-    linkText="Gazelle"
-    image="https://cloudinary.pondigital.solutions/pon-digital-solutions/image/upload/q_auto/f_auto/dpr_auto/c_scale,e_trim/v1/dmp.pon.bike/1280_IYmlpeIikMM02QV3.png?_a=BATFIJAA0"
-    id="gazelle"
-    description="57 inch frame, step through, in frozen white"
-    price="2999"
-    title="Gazelle Arroyo C7 Elite"
-    alt="gazelle"
-></gift-item>
+    <gift-item
+        link="https://www.nintendo.com/us/store/products/split-fiction-switch-2/"
+        linkText="Nintendo"
+        image="https://kagi.com/proxy/250px-Split_Fiction_cover_art.jpg?c=9cn5Kxse4yD05EJkf6QML9dK4clUbdQ9Oq4d5gDoyHD2lO5eDDvTY1Nok8x6MmFwmBOThAPxVu3UVi2zXrZ2JReAFlrsOpDrwcwTPOeK8I8Gx-azSpv2bSWuiOT-28CROsCmunsF-73qJK3NE4HtvwArlEleqFMh5S72qz7oVH4%3D"
+        id="split-fiction"
+        title="Split Fiction"
+        description="For Nintendo Switch"
+        price="49.99"
+        alt="split fiction cover art"
+    ></gift-item>
 </section>
 
 
