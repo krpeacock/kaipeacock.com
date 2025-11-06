@@ -10,7 +10,7 @@ template = "about.html"
 
 Basically a Linktree or whatever, but I already run a website, so I might as well throw my own stuff on here
 
-[Home](https://kaipeacock.com)
+[Home](https://kaiapeacock.com)
 
 ## My birthday party!
 
@@ -27,7 +27,7 @@ I have FFS coming up soon - sign up to support me and my partner while I recover
 
 ## Socials
 
-- Mastodon - [@kaipeacock](https://sfba.social/@kaipeacock)
+- Mastodon - [@kaiapeacock](https://sfba.social/@kaiapeacock)
 - Bluesky - [@peacock.dev](https://bsky.app/profile/peacock.dev) (NSFW)
 - Email - [kaia@peacock.dev](mailto:kaia@peacock.dev)
 - Instagram - @kaia_peacock_sf (for now)

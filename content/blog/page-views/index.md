@@ -2,7 +2,7 @@
 title = "Page View Tracking"
 date = 2021-08-11
 transparent = true
-description = "Anonymous and open page view tracking for kaipeacock.com"
+description = "Anonymous and open page view tracking for kaiapeacock.com"
 +++
 
 I've been putting some decent effort into creating content for this blog lately, and I decided it would be nice to start tracking hits to the site. Most analytics platforms have terrible privacy practices or cost a bunch of money, so I decided to simply build my own.

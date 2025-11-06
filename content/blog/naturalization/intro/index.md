@@ -10,7 +10,7 @@ next = "/blog/naturalization/update"
 next_text = "Naturalization Update"
 +++
 
-> Update - I received citizenship on May 29, 2024! See [https://kaipeacock.com/blog/naturalization/update/](https://kaipeacock.com/blog/naturalization/update/) for more info!
+> Update - I received citizenship on May 29, 2024! See [https://kaiapeacock.com/blog/naturalization/update/](https://kaiapeacock.com/blog/naturalization/update/) for more info!
 > The original article from September 26. 2022 explaining my family history is preserved below
 
 I am in the process of getting my family documentation together to pursue German citizenship. It's an interesting journey, and I thought I would document some of my experiences here both to tell an interesting story and to hopefully help other people walk through the process themselves.

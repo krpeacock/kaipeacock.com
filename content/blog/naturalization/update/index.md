@@ -32,7 +32,7 @@ May 29, 2024 - My brothers and I attend the ceremony, receive our papers and bec
 Some future date - I return and receive a German passport. This has to be a separate step.
 ```
 
-See the original post here: [https://kaipeacock.com/blog/naturalization/intro/](https://kaipeacock.com/blog/naturalization/intro/)
+See the original post here: [https://kaiapeacock.com/blog/naturalization/intro/](https://kaiapeacock.com/blog/naturalization/intro/)
 
 ---
 
