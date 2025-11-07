@@ -27,11 +27,13 @@ What's there to say about me, really? I know on a website like this, you normall
 
 I work five days out of the week. That's a pretty substantial time commitment. More than any specific other activity besides sleeping. It's hard to avoid dwelling on it or identifying with it to some extent. In 2016, I quit law school to learn how to code. By early 2017 I had my first job in the field, and I've been working since then.
 
-Since the early days of the COVID-19 pandemic, I've been working remotely. My current company is based in Zurich, where I've visited a couple of times. In general though, I keep to my own home, and I work out of [The Academy](https://www.academy-sf.com/) a few days of the week, mainly to stretch my legs and change my point of view.
+Since the early days of the COVID-19 pandemic, I've spent years working remotely. Now I'm working in San Francisco, in office two days a week. So at least the commute doesn't eat up a lot of my time.
 
 ---
 
-Since I'm married, a lot of my home life is shared doing things with my spouse. Cooking, cleaning, watching shows on [https://dropout.tv](dropout.tv), playing games together. I enjoy their company, and enjoy bantering with them about the news, politics, and sending them too many TikToks. We have a few hobbies in common, such as TTRPG's, video games, 3d printing, and karaoke. Most of the time we spend is just parallel play, enjoying each other's company as we entertain ourselves in the same space.
+Since I'm married, a lot of my home life is shared doing things with my husband. Cooking, cleaning, watching shows on [https://dropout.tv](dropout.tv), playing games together. I enjoy his company, and enjoy bantering with them about the news, politics, and sending them too many Reels. We have a few hobbies in common, such as TTRPG's, video games, 3d printing, and karaoke. Most of the time we spend is just parallel play, enjoying each other's company as we entertain ourselves in the same space or watch a show together,
+
+My girlfriend and I see each other most weekends too, and I enjoy cooking, going out to events, and spending similar unstructured time with her. It's been nice to have a robust support system.
 
 ---
 
@@ -91,7 +93,7 @@ Today I'm a trans woman living in the city. I'm a US and German citizen. I'm an 
 
 It took a great deal of self-reflection and healing to get where I am today. I owe a lot to the people who have loved me and supported me through the journey to where I am now. It's hard to exist in this world as someone who cares deeply. I want to be someone who takes action and makes a difference, but many days I'm simply too tired to do much besides scroll on my phone outside my other commitments.
 
-There's a lot to still be excited about and enjoy, but I'm focusing on the smaller things these days. I may not fix the world, but I can participate in my local community and culture, eat tasty food, walk to the grocery store, and ride the bus.
+There's a lot to still be excited about and enjoy, but I'm focusing on the smaller things these day, especially as the United States has fallen to fascism. I may not fix the world, but I can participate in my local community and culture, eat tasty food, walk to the grocery store, and ride the bus.
 
 [^1]: A scandalous reveal of my assigned gender at birth 😮
 [^2]: Tbh I started a whole league. At age 16, I met with the founders of the fledgling [logos forensics](https://logosforensics.org/) league and was the first *"coach"* to join
