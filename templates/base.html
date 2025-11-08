@@ -19,5 +19,8 @@
 		{% block content %}{% endblock %}
 	</main>
 	{% include "partials/footer.html" %}
+	{# Analytics #}
+	 <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.1-min.js.gz"></script>
+	 <script defer>window.amplitude?.init('4aa1281740d8de29b50ab56a97fa676a', {"autocapture":{"elementInteractions":true}});</script>
 </body>
 </html>
