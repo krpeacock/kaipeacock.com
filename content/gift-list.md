@@ -31,6 +31,16 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
     price="128"
     alt="levis"
 ></gift-item>
+<gift-item
+    link="https://nooworks.com/collections/new-arrivals-1/products/linen-princess-dress-cosmic-floral?variant=45854037180547&Size=xl"
+    linkText="Nooworks"
+    image="https://nooworks.com/cdn/shop/files/IMG_0573_12367f2c-f713-42a7-a765-9c0e8001616a.jpg?v=1763761602&width=1280"
+    id="nooworks-princess-dress-cosmic-floral"
+    title="Linen Princess Dress Cosmic Floral"
+    description="size XL in Cosmic Floral"
+    price="218"
+    alt="Linen Princess Dress in Cosmic Floral print"
+></gift-item>
 </section>
 <h2>Stuff</h2>
 <section class="gift-section">
@@ -63,6 +73,36 @@ Mostly a place to keep track of things I'm interested in, for when holidays and 
         description="in silver"
         price="35"
         alt="klipsta flip bag hook in silver"
+    ></gift-item>
+    <gift-item
+        link="https://knitpatch.com/collections/shop-all/products/stitchframe"
+        linkText="KnitPatch"
+        image="https://knitpatch.com/cdn/shop/files/KnitePatch_4_-min.png?v=1758742993&width=1000"
+        id="patchmaker-2.0-kit"
+        title="PatchMaker 2.0 Kit"
+        description="Clothing repair kit with PatchMaker tool"
+        price="66"
+        alt="PatchMaker 2.0 Kit for repairing clothes"
+    ></gift-item>
+    <gift-item
+        link="https://cuyana.com/products/system-tote-13-inch-v2?variant=46713890734395"
+        linkText="Cuyana"
+        image="https://cuyana.com/cdn/shop/files/2021-09-14_FA21_WhatInBagSystemTote7292_Rollover_2443febe-2f4a-400b-a8c6-a8bde112f210_1000x.jpg?v=1690342851   "
+        id="cuyana-system-tote-13-black"
+        title="System Tote 13-inch"
+        description="in black"
+        price="358"
+        alt="System Tote 13-inch in black"
+    ></gift-item>
+    <gift-item
+        link="https://www.curlfriendcollective.com/collections/all-scrunchies/products/made-you-blush-silk-scrunchie"
+        linkText="Curlfriend Collective"
+        image="https://www.curlfriendcollective.com/cdn/shop/files/MadeYouBlushMainWebsiteListing_1_1512x.png?v=1724169908"
+        id="curlfriend-silk-scrunchie"
+        title="Silk Scrunchie"
+        description="XL size, open to different colors"
+        price="27"
+        alt="Made You Blush silk scrunchie"
     ></gift-item>
 
 </section>
